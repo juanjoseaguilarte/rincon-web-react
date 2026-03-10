@@ -215,16 +215,38 @@
   text-transform: uppercase;
 }
 
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .experience__panel-content {
+    padding: 36px 36px 48px;
+  }
+
+  .experience__video {
+    min-height: 480px;
+  }
+}
+
+/* Mobile */
 @media (max-width: 768px) {
   .experience__split {
     grid-template-columns: 1fr;
   }
 
   .experience__panel {
-    min-height: 480px;
+    min-height: 420px;
   }
 
   .experience__panel-content {
-    padding: 40px 24px;
+    padding: 32px 16px;
+  }
+
+  .experience__video {
+    min-height: 380px;
+    padding: 0 16px;
+  }
+
+  .experience__video-title {
+    font-size: clamp(22px, 7vw, 36px);
+    margin-bottom: 28px;
   }
 }

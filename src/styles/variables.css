@@ -58,3 +58,16 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* Responsive section padding */
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 60px 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  :root {
+    --section-padding: 80px 0;
+  }
+}

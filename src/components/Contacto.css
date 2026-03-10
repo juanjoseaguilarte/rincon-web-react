@@ -137,9 +137,39 @@
   border-radius: 5px;
 }
 
-@media (max-width: 768px) {
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contacto {
+    padding: 70px 0;
+  }
+
   .contacto__grid {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 48px;
+  }
+
+  .contacto__map img {
+    height: 360px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contacto {
+    padding: 60px 0;
+  }
+
+  .contacto__grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .contacto__map img {
+    height: 260px;
+  }
+
+  .contacto__socials {
+    flex-wrap: wrap;
+    gap: 10px;
   }
 }

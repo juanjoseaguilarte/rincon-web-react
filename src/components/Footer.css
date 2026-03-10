@@ -93,10 +93,23 @@
   color: var(--color-cream-rose);
 }
 
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer__top {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+}
+
+/* Mobile */
 @media (max-width: 768px) {
+  .footer {
+    padding: 48px 0 0;
+  }
+
   .footer__top {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 28px;
   }
 
   .footer__bottom {

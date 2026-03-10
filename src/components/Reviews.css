@@ -101,7 +101,27 @@
   color: var(--color-green-light);
 }
 
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .reviews {
+    padding: 70px 0;
+  }
+}
+
+/* Mobile */
 @media (max-width: 768px) {
+  .reviews {
+    padding: 60px 0;
+  }
+
+  .reviews__header {
+    margin-bottom: 40px;
+  }
+
+  .reviews__scores {
+    gap: 20px;
+  }
+
   .reviews__grid {
     grid-template-columns: 1fr;
   }
@@ -109,6 +129,7 @@
   .reviews__card {
     border-right: none;
     border-bottom: 1px solid var(--color-green-mid);
+    padding: 28px 20px;
   }
 
   .reviews__card:last-child {

@@ -189,6 +189,19 @@
   opacity: 0.8;
 }
 
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .reservas {
+    padding: 70px 0;
+  }
+
+  .reservas__grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
+/* Mobile */
 @media (max-width: 992px) {
   .reservas__grid {
     grid-template-columns: 1fr;
@@ -196,9 +209,15 @@
   }
 }
 
+@media (max-width: 768px) {
+  .reservas {
+    padding: 60px 0;
+  }
+}
+
 @media (max-width: 576px) {
   .reservas__form-wrapper {
-    padding: 28px 20px;
+    padding: 24px 16px;
   }
 
   .reservas__row {
