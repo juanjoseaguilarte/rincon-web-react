@@ -1,29 +1,35 @@
 .footer {
-  background: var(--color-bg);
-  color: var(--color-bg-warm);
+  background: var(--color-green-dark);
+  color: var(--color-cream-warm);
   padding: 64px 0 0;
 }
 
 .footer__top {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 48px;
   padding-bottom: 48px;
-  border-bottom: 1px solid rgba(233,228,214,0.1);
+  border-bottom: 1px solid rgba(159,170,167,0.3);
+  align-items: start;
 }
 
+.footer__brand {}
+
 .footer__logo-text {
-  font-family: var(--font-heading);
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--color-cream-warm);
   margin-bottom: 8px;
 }
 
 .footer__tagline {
-  font-size: 13px;
-  color: var(--color-text-gray);
+  font-family: var(--font-heading);
+  font-size: 12px;
+  font-style: italic;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-green-light);
 }
 
 .footer__nav {
@@ -34,15 +40,16 @@
 
 .footer__nav a {
   font-family: var(--font-heading);
-  font-size: 13px;
+  font-size: 14px;
+  font-style: italic;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--color-text-gray);
+  color: var(--color-cream-warm);
   transition: color 0.2s;
 }
 
 .footer__nav a:hover {
-  color: var(--color-bg-warm);
+  color: var(--color-cream-rose);
 }
 
 .footer__social {
@@ -53,15 +60,16 @@
 
 .footer__social a {
   font-family: var(--font-heading);
-  font-size: 13px;
+  font-size: 14px;
+  font-style: italic;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--color-text-gray);
+  color: var(--color-cream-warm);
   transition: color 0.2s;
 }
 
 .footer__social a:hover {
-  color: var(--color-bg-warm);
+  color: var(--color-cream-rose);
 }
 
 .footer__bottom {
@@ -69,19 +77,20 @@
   justify-content: space-between;
   align-items: center;
   padding: 24px 0;
-  font-size: 12px;
-  color: var(--color-text-gray);
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--color-green-light);
   flex-wrap: wrap;
   gap: 12px;
 }
 
 .footer__bottom a {
-  color: var(--color-text-gray);
+  color: var(--color-green-light);
   transition: color 0.2s;
 }
 
 .footer__bottom a:hover {
-  color: var(--color-bg-warm);
+  color: var(--color-cream-rose);
 }
 
 @media (max-width: 768px) {

@@ -9,24 +9,32 @@ export default function Hero() {
       </div>
 
       <div className="hero__content container">
-        <p className="hero__subtitle">Restaurante en La Línea de la Concepción</p>
+        <p className="hero__subtitle">The Wine Bar</p>
         <h1 className="hero__title">
           Una vinoteca para<br />comer de lujo
         </h1>
-        <p className="hero__desc">
-          Un restaurante gourmet de cocina casera con una bodega de lujo.<br />
-          En el que calidad y precio maridan de maravilla.<br />
-          ¡Ah! También hay Sushi y lo hacemos aquí.
-        </p>
-        <div className="hero__actions">
-          <a href="#carta" className="btn btn-primary">Ver carta</a>
-          <a href="#reservas" className="btn btn-outline hero__btn-outline">Reservar mesa</a>
+        <div className="hero__play-wrap">
+          <a
+            href="https://www.youtube.com/watch?v=OZth9wIndMo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hero__play"
+          >
+            <div className="hero__play-circle">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+            </div>
+          </a>
         </div>
       </div>
 
-      <div className="hero__scroll">
-        <span>Descubre más</span>
-        <div className="hero__scroll-line" />
+      {/* Bottom sticky nav like original */}
+      <div className="hero__bottom-nav">
+        <a href="#carta" className="hero__bottom-link">Cartas</a>
+        <a href="https://www.elrincondejuan.es/hacer-pedido/" target="_blank" rel="noopener noreferrer" className="hero__bottom-link">Hacer Pedido</a>
+        <a href="https://www.elrincondejuan.es/bono-regalo/" target="_blank" rel="noopener noreferrer" className="hero__bottom-link">Regala</a>
+        <a href="#reservas" className="hero__bottom-link hero__bottom-link--highlight">Reserva</a>
       </div>
     </section>
   )

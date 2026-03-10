@@ -1,39 +1,54 @@
 /* El Rincón de Juan - Design Tokens */
 :root {
-  /* Colors */
-  --color-bg: #040304;
-  --color-bg-light: #edebe3;
-  --color-bg-warm: #e9e4d6;
-  --color-bg-rose: #e7d3cb;
-  --color-text-primary: #040304;
-  --color-text-muted: #756e6b;
-  --color-text-light: #e9e4d6;
-  --color-text-gray: #9faaa7;
-  --color-border: #ccd3d7;
-  --color-accent: #756e6b;
+  /* === EXACT BRAND COLORS FROM ORIGINAL === */
+  --color-green-dark:    #203b2f;   /* primary brand green */
+  --color-green-mid:     #4c6159;   /* secondary green */
+  --color-green-light:   #9faaa7;   /* light green-gray */
+  --color-blue-gray:     #8ca0a7;
+  --color-blue-gray-mid: #a3afb7;
+  --color-border:        #ccd3d7;
+  --color-salmon:        #d29f85;   /* accent / terracotta */
+  --color-cream-rose:    #e7d3cb;
+  --color-cream-warm:    #e8e4d6;
+  --color-cream:         #edebe3;   /* body background */
+  --color-off-white:     #f7f7f7;
+  --color-gray-mid:      #9fa0a1;
+  --color-gray-dark:     #757577;
+  --color-gray-darker:   #4b4b4d;
+  --color-black:         #040304;
+
+  /* Semantic aliases */
+  --color-bg:            var(--color-cream);
+  --color-bg-dark:       var(--color-green-dark);
+  --color-text-primary:  var(--color-black);
+  --color-text-light:    var(--color-off-white);
+  --color-text-muted:    var(--color-gray-dark);
+  --color-accent:        var(--color-salmon);
 
   /* Fonts */
-  --font-display: 'BagdollDisplay', serif;
-  --font-heading: 'FFGoodProCond', sans-serif;
-  --font-body: 'Lato', sans-serif;
+  --font-display:  'BagdollDisplay', 'Georgia', serif;
+  --font-heading:  'FFGoodProCond', system-ui, sans-serif;
+  --font-body:     'Lato', system-ui, sans-serif;
 
   /* Spacing */
-  --section-padding: 80px 0;
+  --section-padding: 100px 0;
   --container-max: 1200px;
 }
 
 @font-face {
   font-family: 'BagdollDisplay';
   src: url('/fonts/BagdollDisplay-Regular.woff2') format('woff2');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'FFGoodProCond';
   src: url('/fonts/FFGoodProCond-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -41,4 +56,5 @@
   src: url('/fonts/Lato-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }

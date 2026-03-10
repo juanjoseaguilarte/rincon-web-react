@@ -1,5 +1,6 @@
 .reservas {
-  background: var(--color-bg-rose);
+  background: var(--color-cream);
+  padding: 100px 0;
 }
 
 .reservas__grid {
@@ -11,24 +12,33 @@
 
 .reservas__label {
   font-family: var(--font-heading);
-  font-size: 12px;
-  letter-spacing: 0.25em;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--color-accent);
+  color: var(--color-green-mid);
   margin-bottom: 16px;
+  display: block;
 }
 
 .reservas__title {
-  font-size: clamp(32px, 4vw, 48px);
-  color: var(--color-text-primary);
-  margin-bottom: 24px;
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4vw, 52px);
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: -0.01em;
+  color: var(--color-green-dark);
+  margin-bottom: 20px;
 }
 
 .reservas__desc {
+  font-family: var(--font-body);
   font-size: 15px;
-  line-height: 1.8;
-  color: var(--color-text-muted);
-  margin-bottom: 40px;
+  line-height: 1.75;
+  color: var(--color-gray-darker);
+  margin-bottom: 36px;
 }
 
 .reservas__details {
@@ -45,106 +55,153 @@
 
 .reservas__detail-icon {
   font-size: 20px;
+  flex-shrink: 0;
   margin-top: 2px;
 }
 
 .reservas__detail strong {
+  display: block;
   font-family: var(--font-heading);
   font-size: 13px;
-  letter-spacing: 0.1em;
+  font-style: italic;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  display: block;
+  color: var(--color-green-dark);
   margin-bottom: 4px;
 }
 
 .reservas__detail p {
+  font-family: var(--font-body);
   font-size: 14px;
-  color: var(--color-text-muted);
+  color: var(--color-gray-darker);
   line-height: 1.6;
 }
 
 .reservas__detail a {
-  color: var(--color-text-primary);
-  font-weight: 600;
+  color: var(--color-green-mid);
+  transition: color 0.2s;
+}
+
+.reservas__detail a:hover {
+  color: var(--color-green-dark);
 }
 
 /* Form */
 .reservas__form-wrapper {
-  background: white;
+  background: var(--color-green-dark);
+  border-radius: 12px;
   padding: 48px;
-  box-shadow: 0 4px 40px rgba(0,0,0,0.08);
 }
 
 .reservas__form-title {
-  font-size: 22px;
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  color: var(--color-cream-warm);
   margin-bottom: 32px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--color-border);
 }
 
 .reservas__row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
+  margin-bottom: 16px;
 }
 
 .reservas__field {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .reservas__field label {
   font-family: var(--font-heading);
   font-size: 12px;
-  letter-spacing: 0.15em;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--color-text-muted);
+  color: var(--color-green-light);
 }
 
 .reservas__field input,
 .reservas__field select,
 .reservas__field textarea {
-  padding: 12px 14px;
-  border: 1px solid var(--color-border);
+  background: rgba(232,228,214,0.1);
+  border: 1px solid rgba(159,170,167,0.4);
+  border-radius: 4px;
+  color: var(--color-cream-warm);
   font-family: var(--font-body);
   font-size: 14px;
-  color: var(--color-text-primary);
-  background: white;
+  padding: 10px 14px;
   outline: none;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.reservas__field input::placeholder,
+.reservas__field textarea::placeholder {
+  color: rgba(159,170,167,0.6);
 }
 
 .reservas__field input:focus,
 .reservas__field select:focus,
 .reservas__field textarea:focus {
-  border-color: var(--color-text-primary);
+  border-color: var(--color-green-light);
+  background: rgba(232,228,214,0.15);
+}
+
+.reservas__field select option {
+  background: var(--color-green-dark);
+  color: var(--color-cream-warm);
 }
 
 .reservas__submit {
   width: 100%;
-  text-align: center;
-  margin-bottom: 12px;
+  margin-top: 8px;
+  padding: 14px 28px;
+  background: var(--color-salmon);
+  color: var(--color-off-white);
+  border: none;
+  border-radius: 5px;
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.reservas__submit:hover {
+  background: #be8b71;
 }
 
 .reservas__disclaimer {
+  font-family: var(--font-body);
   font-size: 12px;
-  color: var(--color-text-gray);
+  color: var(--color-green-light);
   text-align: center;
+  margin-top: 12px;
+  opacity: 0.8;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   .reservas__grid {
     grid-template-columns: 1fr;
     gap: 48px;
   }
+}
+
+@media (max-width: 576px) {
+  .reservas__form-wrapper {
+    padding: 28px 20px;
+  }
 
   .reservas__row {
     grid-template-columns: 1fr;
-  }
-
-  .reservas__form-wrapper {
-    padding: 32px;
   }
 }

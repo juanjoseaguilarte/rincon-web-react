@@ -12,14 +12,16 @@ html {
 body {
   font-family: var(--font-body);
   color: var(--color-text-primary);
-  background: var(--color-bg-light);
+  background: var(--color-bg);
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
   max-width: var(--container-max);
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 32px;
 }
 
 img {
@@ -33,9 +35,10 @@ a {
   color: inherit;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  font-weight: 500;
+  font-weight: 400;
+  font-style: italic;
   line-height: 1.2;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -45,34 +48,74 @@ h1, h2, h3, h4 {
   padding: var(--section-padding);
 }
 
+/* Buttons - exact from original */
 .btn {
   display: inline-block;
   padding: 12px 28px;
   font-family: var(--font-heading);
   font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 0em;
   text-transform: uppercase;
   cursor: pointer;
   border: none;
-  transition: background 0.2s, color 0.2s;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+  line-height: 1.2;
+  position: relative;
+  overflow: hidden;
 }
 
 .btn-primary {
-  background: var(--color-text-primary);
-  color: var(--color-text-light);
+  background: var(--color-green-dark);
+  color: var(--color-off-white);
 }
 
 .btn-primary:hover {
-  background: var(--color-accent);
+  background: #0c271b;
+  color: var(--color-off-white);
 }
 
 .btn-outline {
   background: transparent;
-  border: 2px solid currentColor;
+  border: 0 0 4px 0 solid;
+  border-bottom: 4px solid var(--color-off-white);
+  color: var(--color-off-white);
+  border-radius: 0;
 }
 
 .btn-outline:hover {
-  background: var(--color-text-primary);
-  color: var(--color-text-light);
+  color: var(--color-off-white);
+  opacity: 0.8;
+}
+
+.btn-salmon {
+  background: var(--color-salmon);
+  color: var(--color-off-white);
+  border-radius: 5px;
+}
+
+.btn-salmon:hover {
+  background: #be8b71;
+  color: var(--color-off-white);
+}
+
+/* Label / eyebrow text style */
+.label-eyebrow {
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-green-mid);
+  margin-bottom: 12px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
 }

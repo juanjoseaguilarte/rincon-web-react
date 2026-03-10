@@ -1,26 +1,27 @@
 .under-construction {
-  background: rgba(4,3,4,0.05);
-  border: 2px dashed var(--color-border);
-  padding: 48px;
   text-align: center;
-  border-radius: 4px;
+  padding: 40px 20px;
+  color: var(--color-green-light);
 }
 
 .under-construction__icon {
-  font-size: 48px;
+  font-size: 36px;
   margin-bottom: 16px;
 }
 
 .under-construction__text {
   font-family: var(--font-heading);
-  font-size: 18px;
+  font-size: 16px;
+  font-style: italic;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--color-text-primary);
+  color: var(--color-cream-rose);
   margin-bottom: 8px;
 }
 
 .under-construction__sub {
-  font-size: 14px;
-  color: var(--color-text-muted);
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--color-green-light);
+  opacity: 0.7;
 }

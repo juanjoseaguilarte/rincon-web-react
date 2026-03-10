@@ -3,7 +3,9 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   overflow: hidden;
+  background: var(--color-black);
 }
 
 .hero__bg {
@@ -15,103 +17,132 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .hero__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(4,3,4,0.5) 0%,
-    rgba(4,3,4,0.3) 40%,
-    rgba(4,3,4,0.7) 100%
-  );
+  background: rgba(4,3,4,0.45);
 }
 
 .hero__content {
   position: relative;
   z-index: 1;
-  color: var(--color-bg-warm);
-  max-width: 700px;
+  color: var(--color-cream-warm);
+  text-align: center;
+  padding: 80px 32px 120px;
+  max-width: 800px;
 }
 
 .hero__subtitle {
   font-family: var(--font-heading);
-  font-size: 14px;
-  letter-spacing: 0.2em;
+  font-size: 13px;
+  font-style: italic;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--color-text-gray);
-  margin-bottom: 16px;
+  color: var(--color-off-white);
+  margin-bottom: 24px;
+  display: block;
+  opacity: 0.85;
 }
 
 .hero__title {
   font-family: var(--font-display);
-  font-size: clamp(48px, 8vw, 96px);
-  text-transform: none;
-  letter-spacing: -0.01em;
-  line-height: 1;
-  color: var(--color-bg-warm);
-  margin-bottom: 24px;
-}
-
-.hero__desc {
-  font-size: 16px;
-  line-height: 1.8;
-  color: rgba(233,228,214,0.85);
-  margin-bottom: 40px;
-}
-
-.hero__actions {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.hero__btn-outline {
-  color: var(--color-bg-warm);
-  border-color: var(--color-bg-warm);
-}
-
-.hero__btn-outline:hover {
-  background: var(--color-bg-warm);
-  color: var(--color-text-primary);
-}
-
-.hero__scroll {
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  color: rgba(233,228,214,0.6);
-  font-size: 11px;
-  letter-spacing: 0.15em;
+  font-size: clamp(48px, 9vw, 100px);
+  font-style: normal;
+  font-weight: 400;
   text-transform: uppercase;
-  z-index: 1;
+  letter-spacing: 0.02em;
+  line-height: 1.0;
+  color: var(--color-off-white);
+  margin-bottom: 48px;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.4);
 }
 
-.hero__scroll-line {
-  width: 1px;
-  height: 40px;
-  background: rgba(233,228,214,0.4);
-  animation: scroll-pulse 2s ease-in-out infinite;
+/* Play button circle */
+.hero__play-wrap {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes scroll-pulse {
-  0%, 100% { opacity: 0.4; }
-  50% { opacity: 1; }
+.hero__play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(4px);
+  transition: background 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.hero__play:hover {
+  background: rgba(255,255,255,0.2);
+  transform: scale(1.08);
+}
+
+.hero__play-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Bottom bar */
+.hero__bottom-nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  background: rgba(237, 235, 227, 0.95);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 -2px 20px rgba(0,0,0,0.15);
+}
+
+.hero__bottom-link {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-green-dark);
+  padding: 16px 40px;
+  transition: background 0.2s, color 0.2s;
+  border-right: 1px solid var(--color-border);
+}
+
+.hero__bottom-link:last-child {
+  border-right: none;
+}
+
+.hero__bottom-link:hover {
+  background: rgba(32,59,47,0.08);
+}
+
+.hero__bottom-link--highlight {
+  background: var(--color-salmon);
+  color: var(--color-off-white);
+}
+
+.hero__bottom-link--highlight:hover {
+  background: #be8b71;
+  color: var(--color-off-white);
 }
 
 @media (max-width: 768px) {
-  .hero__content {
-    text-align: center;
-    padding-top: 100px;
+  .hero__title {
+    font-size: clamp(40px, 10vw, 60px);
   }
 
-  .hero__actions {
-    justify-content: center;
+  .hero__bottom-link {
+    padding: 14px 20px;
+    font-size: 14px;
   }
 }
