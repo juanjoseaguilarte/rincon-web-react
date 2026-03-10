@@ -8,6 +8,12 @@
         "precio_media": "",
         "precio_full": "6,50",
         "likes": 419,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2026/01/1.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2026/01/2.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2026/01/4-1117x2000.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2026/01/5-924x2000.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2026/01/1.jpg",
         "top": true
       },
@@ -17,6 +23,11 @@
         "precio_media": "",
         "precio_full": "4",
         "likes": 753,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/11/3.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/11/4.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/11/5.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/11/3.jpg",
         "top": true
       },
@@ -26,6 +37,7 @@
         "precio_media": "",
         "precio_full": "4.50",
         "likes": 420,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -35,6 +47,7 @@
         "precio_media": "",
         "precio_full": "3,95",
         "likes": 267,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -44,6 +57,7 @@
         "precio_media": "",
         "precio_full": "4,20",
         "likes": 258,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -53,6 +67,7 @@
         "precio_media": "",
         "precio_full": "5,50",
         "likes": 134,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -62,6 +77,7 @@
         "precio_media": "",
         "precio_full": "5,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -71,6 +87,7 @@
         "precio_media": "",
         "precio_full": "4",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -80,6 +97,7 @@
         "precio_media": "",
         "precio_full": "Según Maduración Y Raza / Preguntar",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -89,6 +107,7 @@
         "precio_media": "8,50",
         "precio_full": "15,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -98,6 +117,7 @@
         "precio_media": "7,75",
         "precio_full": "12,90",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -107,6 +127,7 @@
         "precio_media": "34,45",
         "precio_full": "54,95",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       }
@@ -121,6 +142,7 @@
         "precio_media": "8,50",
         "precio_full": "15,50",
         "likes": 131,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -130,6 +152,7 @@
         "precio_media": "7,75",
         "precio_full": "12,90",
         "likes": 136,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -139,6 +162,7 @@
         "precio_media": "",
         "precio_full": "14,50",
         "likes": 249,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -148,6 +172,12 @@
         "precio_media": "",
         "precio_full": "7,95",
         "likes": 143,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0050-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0047-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0057-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0055-2-1920x1278.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0050-2-1920x1278.jpg",
         "top": true
       },
@@ -157,6 +187,7 @@
         "precio_media": "",
         "precio_full": "8,90",
         "likes": 116,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -166,6 +197,7 @@
         "precio_media": "",
         "precio_full": "16,50",
         "likes": 263,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -175,6 +207,7 @@
         "precio_media": "7,45",
         "precio_full": "12,50",
         "likes": 80,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -184,6 +217,7 @@
         "precio_media": "",
         "precio_full": "14,50",
         "likes": 69,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -193,6 +227,7 @@
         "precio_media": "",
         "precio_full": "11,75",
         "likes": 50,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -202,6 +237,7 @@
         "precio_media": "8,75",
         "precio_full": "12,5",
         "likes": 62,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -211,6 +247,7 @@
         "precio_media": "",
         "precio_full": "9,50",
         "likes": 185,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -220,6 +257,12 @@
         "precio_media": "",
         "precio_full": "19,5",
         "likes": 6136,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/DSC0088-2-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/DSC0095-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/DSC0104-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/DSC0111-2-1920x1278.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/DSC0088-2-1-1920x1278.jpg",
         "top": true
       },
@@ -229,6 +272,7 @@
         "precio_media": "",
         "precio_full": "8,90",
         "likes": 58,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -238,6 +282,7 @@
         "precio_media": "",
         "precio_full": "12,45",
         "likes": 51,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -247,6 +292,7 @@
         "precio_media": "",
         "precio_full": "14,45",
         "likes": 592,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -256,6 +302,7 @@
         "precio_media": "5,35",
         "precio_full": "8,35",
         "likes": 102,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -265,6 +312,7 @@
         "precio_media": "",
         "precio_full": "22",
         "likes": 54,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -274,6 +322,7 @@
         "precio_media": "",
         "precio_full": "7,45",
         "likes": 34,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -283,6 +332,7 @@
         "precio_media": "",
         "precio_full": "12,5",
         "likes": 68,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -292,6 +342,7 @@
         "precio_media": "",
         "precio_full": "15,95",
         "likes": 73,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -301,6 +352,9 @@
         "precio_media": "",
         "precio_full": "9,90",
         "likes": 54,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/08/1-80821891-1500x2000.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/08/1-80821891-1500x2000.jpg",
         "top": true
       },
@@ -310,6 +364,7 @@
         "precio_media": "",
         "precio_full": "16,95",
         "likes": 54,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -319,6 +374,7 @@
         "precio_media": "13,95",
         "precio_full": "24,95",
         "likes": 78,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -328,6 +384,7 @@
         "precio_media": "",
         "precio_full": "16,95",
         "likes": 65,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -337,6 +394,7 @@
         "precio_media": "",
         "precio_full": "5,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -346,6 +404,7 @@
         "precio_media": "",
         "precio_full": "4",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -355,6 +414,7 @@
         "precio_media": "",
         "precio_full": "Según Maduración Y Raza / Preguntar",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -364,6 +424,7 @@
         "precio_media": "8,50",
         "precio_full": "15,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -373,6 +434,7 @@
         "precio_media": "7,75",
         "precio_full": "12,90",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -382,6 +444,7 @@
         "precio_media": "34,45",
         "precio_full": "54,95",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       }
@@ -396,6 +459,13 @@
         "precio_media": "",
         "precio_full": "3,75",
         "likes": 137,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0123-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0120-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0119-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0117-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0126-1-1920x1278.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0123-1-1920x1278.jpg",
         "top": true
       },
@@ -405,6 +475,7 @@
         "precio_media": "",
         "precio_full": "4,45",
         "likes": 110,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -414,6 +485,7 @@
         "precio_media": "",
         "precio_full": "3,95",
         "likes": 74,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -422,7 +494,8 @@
         "desc": "",
         "precio_media": "",
         "precio_full": "3,95",
-        "likes": 84,
+        "likes": 85,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -432,6 +505,7 @@
         "precio_media": "",
         "precio_full": "3,45",
         "likes": 56,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -441,6 +515,7 @@
         "precio_media": "",
         "precio_full": "3,45",
         "likes": 76,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -449,7 +524,8 @@
         "desc": "",
         "precio_media": "",
         "precio_full": "4,90",
-        "likes": 110,
+        "likes": 111,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -459,6 +535,7 @@
         "precio_media": "",
         "precio_full": "5,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -468,6 +545,7 @@
         "precio_media": "",
         "precio_full": "4",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -477,6 +555,7 @@
         "precio_media": "",
         "precio_full": "Según Maduración Y Raza / Preguntar",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -486,6 +565,7 @@
         "precio_media": "8,50",
         "precio_full": "15,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -495,6 +575,7 @@
         "precio_media": "7,75",
         "precio_full": "12,90",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -504,6 +585,7 @@
         "precio_media": "34,45",
         "precio_full": "54,95",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       }
@@ -518,6 +600,7 @@
         "precio_media": "",
         "precio_full": "10,55",
         "likes": 83,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -527,6 +610,7 @@
         "precio_media": "",
         "precio_full": "11,55",
         "likes": 320,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -536,6 +620,7 @@
         "precio_media": "",
         "precio_full": "9,5",
         "likes": 66,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -545,6 +630,7 @@
         "precio_media": "",
         "precio_full": "14,50",
         "likes": 271,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -554,6 +640,7 @@
         "precio_media": "",
         "precio_full": "9,5",
         "likes": 72,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -563,6 +650,7 @@
         "precio_media": "",
         "precio_full": "14,55",
         "likes": 74,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -572,6 +660,14 @@
         "precio_media": "",
         "precio_full": "18,95",
         "likes": 147,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0161-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0155-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0153-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0147-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0143-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0137-1-1920x1278.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0161-1-1920x1278.jpg",
         "top": true
       },
@@ -581,6 +677,7 @@
         "precio_media": "",
         "precio_full": "10,55",
         "likes": 47,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -590,6 +687,7 @@
         "precio_media": "",
         "precio_full": "14,55",
         "likes": 93,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -599,6 +697,7 @@
         "precio_media": "",
         "precio_full": "16,55",
         "likes": 66,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -608,6 +707,7 @@
         "precio_media": "",
         "precio_full": "10,55",
         "likes": 59,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -617,6 +717,7 @@
         "precio_media": "",
         "precio_full": "5,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -626,6 +727,7 @@
         "precio_media": "",
         "precio_full": "4",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -635,6 +737,7 @@
         "precio_media": "",
         "precio_full": "Según Maduración Y Raza / Preguntar",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -644,6 +747,7 @@
         "precio_media": "8,50",
         "precio_full": "15,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -653,6 +757,7 @@
         "precio_media": "7,75",
         "precio_full": "12,90",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -662,6 +767,7 @@
         "precio_media": "34,45",
         "precio_full": "54,95",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       }
@@ -676,6 +782,13 @@
         "precio_media": "",
         "precio_full": "4,95",
         "likes": 133,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0225-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0239-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0265-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0222-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0218-1-1920x1278.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0225-2-1920x1278.jpg",
         "top": true
       },
@@ -685,6 +798,7 @@
         "precio_media": "",
         "precio_full": "4,95",
         "likes": 72,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -694,6 +808,7 @@
         "precio_media": "",
         "precio_full": "3,45",
         "likes": 77,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -703,6 +818,7 @@
         "precio_media": "",
         "precio_full": "3,95",
         "likes": 69,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -712,6 +828,11 @@
         "precio_media": "",
         "precio_full": "5,9",
         "likes": 178,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0190-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0184-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0172-1-1920x1278.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0190-2-1920x1278.jpg",
         "top": true
       },
@@ -721,6 +842,7 @@
         "precio_media": "",
         "precio_full": "5,9",
         "likes": 119,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -730,6 +852,7 @@
         "precio_media": "",
         "precio_full": "4,95",
         "likes": 85,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -739,6 +862,7 @@
         "precio_media": "",
         "precio_full": "4,5",
         "likes": 71,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -748,6 +872,7 @@
         "precio_media": "",
         "precio_full": "12,65",
         "likes": 66,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -757,6 +882,7 @@
         "precio_media": "",
         "precio_full": "12,65",
         "likes": 71,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -766,6 +892,7 @@
         "precio_media": "",
         "precio_full": "",
         "likes": 85,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -775,6 +902,7 @@
         "precio_media": "",
         "precio_full": "",
         "likes": 97,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -784,6 +912,7 @@
         "precio_media": "",
         "precio_full": "",
         "likes": 76,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -793,6 +922,7 @@
         "precio_media": "",
         "precio_full": "5,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -802,6 +932,7 @@
         "precio_media": "",
         "precio_full": "4",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -811,6 +942,7 @@
         "precio_media": "",
         "precio_full": "Según Maduración Y Raza / Preguntar",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -820,6 +952,7 @@
         "precio_media": "8,50",
         "precio_full": "15,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -829,6 +962,7 @@
         "precio_media": "7,75",
         "precio_full": "12,90",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -838,6 +972,7 @@
         "precio_media": "34,45",
         "precio_full": "54,95",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       }
@@ -852,6 +987,7 @@
         "precio_media": "",
         "precio_full": "14,45",
         "likes": 93,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -861,6 +997,7 @@
         "precio_media": "",
         "precio_full": "15,75",
         "likes": 174,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -870,6 +1007,7 @@
         "precio_media": "",
         "precio_full": "13,95",
         "likes": 88,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -879,6 +1017,7 @@
         "precio_media": "",
         "precio_full": "13,55",
         "likes": 86,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -888,6 +1027,7 @@
         "precio_media": "",
         "precio_full": "9,95",
         "likes": 89,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -897,6 +1037,7 @@
         "precio_media": "",
         "precio_full": "9,95",
         "likes": 88,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -906,6 +1047,7 @@
         "precio_media": "",
         "precio_full": "13,95",
         "likes": 108,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -915,6 +1057,7 @@
         "precio_media": "",
         "precio_full": "14,45",
         "likes": 83,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -924,6 +1067,7 @@
         "precio_media": "",
         "precio_full": "14,75",
         "likes": 96,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -933,6 +1077,7 @@
         "precio_media": "",
         "precio_full": "8,90",
         "likes": 95,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -942,6 +1087,7 @@
         "precio_media": "",
         "precio_full": "14,45",
         "likes": 86,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -951,6 +1097,7 @@
         "precio_media": "",
         "precio_full": "8,90",
         "likes": 82,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -960,6 +1107,7 @@
         "precio_media": "",
         "precio_full": "5,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -969,6 +1117,7 @@
         "precio_media": "",
         "precio_full": "4",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -978,6 +1127,7 @@
         "precio_media": "",
         "precio_full": "Según Maduración Y Raza / Preguntar",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -987,6 +1137,7 @@
         "precio_media": "8,50",
         "precio_full": "15,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -996,6 +1147,7 @@
         "precio_media": "7,75",
         "precio_full": "12,90",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1005,6 +1157,7 @@
         "precio_media": "34,45",
         "precio_full": "54,95",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       }
@@ -1019,6 +1172,13 @@
         "precio_media": "",
         "precio_full": "16,45",
         "likes": 233,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0278-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0286-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0288-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0295-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0276-1-1920x1278.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0278-2-1920x1278.jpg",
         "top": true
       },
@@ -1028,6 +1188,7 @@
         "precio_media": "",
         "precio_full": "12,95",
         "likes": 979,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1037,6 +1198,7 @@
         "precio_media": "",
         "precio_full": "19,50",
         "likes": 169,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1046,6 +1208,7 @@
         "precio_media": "",
         "precio_full": "18,45",
         "likes": 118,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1055,6 +1218,7 @@
         "precio_media": "",
         "precio_full": "18,45",
         "likes": 99,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1064,6 +1228,7 @@
         "precio_media": "34,45",
         "precio_full": "54,95",
         "likes": 149,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1073,6 +1238,7 @@
         "precio_media": "",
         "precio_full": "29,95",
         "likes": 108,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1082,6 +1248,7 @@
         "precio_media": "",
         "precio_full": "24,95",
         "likes": 84,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1091,6 +1258,7 @@
         "precio_media": "",
         "precio_full": "29",
         "likes": 140,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1099,7 +1267,8 @@
         "desc": "Tenemos distintas razas y tiempos de maduración, expuestas en nueva cámara Dry Aged",
         "precio_media": "",
         "precio_full": "Según Maduración Y Raza / Preguntar",
-        "likes": 329,
+        "likes": 330,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1109,6 +1278,7 @@
         "precio_media": "",
         "precio_full": "5,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1118,6 +1288,7 @@
         "precio_media": "",
         "precio_full": "4",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1127,6 +1298,7 @@
         "precio_media": "",
         "precio_full": "Según Maduración Y Raza / Preguntar",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1136,6 +1308,7 @@
         "precio_media": "8,50",
         "precio_full": "15,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1145,6 +1318,7 @@
         "precio_media": "7,75",
         "precio_full": "12,90",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1154,6 +1328,7 @@
         "precio_media": "34,45",
         "precio_full": "54,95",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       }
@@ -1168,6 +1343,7 @@
         "precio_media": "",
         "precio_full": "1,55",
         "likes": 36,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1177,6 +1353,7 @@
         "precio_media": "",
         "precio_full": "0,95",
         "likes": 32,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1186,6 +1363,7 @@
         "precio_media": "",
         "precio_full": "0,95",
         "likes": 31,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1195,6 +1373,7 @@
         "precio_media": "",
         "precio_full": "1,55",
         "likes": 27,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1204,6 +1383,7 @@
         "precio_media": "",
         "precio_full": "0,95",
         "likes": 31,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1213,6 +1393,7 @@
         "precio_media": "",
         "precio_full": "0,95",
         "likes": 27,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1222,6 +1403,7 @@
         "precio_media": "",
         "precio_full": "0,95",
         "likes": 30,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1231,6 +1413,7 @@
         "precio_media": "",
         "precio_full": "0,95",
         "likes": 32,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1240,6 +1423,7 @@
         "precio_media": "",
         "precio_full": "0,95",
         "likes": 35,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1249,6 +1433,7 @@
         "precio_media": "",
         "precio_full": "1,55",
         "likes": 28,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1258,6 +1443,7 @@
         "precio_media": "",
         "precio_full": "0,95",
         "likes": 38,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1267,6 +1453,7 @@
         "precio_media": "",
         "precio_full": "0,95",
         "likes": 37,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1276,6 +1463,7 @@
         "precio_media": "",
         "precio_full": "5,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1285,6 +1473,7 @@
         "precio_media": "",
         "precio_full": "4",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1294,6 +1483,7 @@
         "precio_media": "",
         "precio_full": "Según Maduración Y Raza / Preguntar",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1303,6 +1493,7 @@
         "precio_media": "8,50",
         "precio_full": "15,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1312,6 +1503,7 @@
         "precio_media": "7,75",
         "precio_full": "12,90",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1321,6 +1513,7 @@
         "precio_media": "34,45",
         "precio_full": "54,95",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       }
@@ -1335,6 +1528,9 @@
         "precio_media": "",
         "precio_full": "",
         "likes": 47,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/08/DSC_0054-1920x1280.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/08/DSC_0054-1920x1280.jpg",
         "top": true
       },
@@ -1344,6 +1540,7 @@
         "precio_media": "",
         "precio_full": "",
         "likes": 33,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1353,6 +1550,13 @@
         "precio_media": "",
         "precio_full": "",
         "likes": 117,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0395-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0412-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0420-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0427-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0443-1-1920x1278.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0395-1-1920x1278.jpg",
         "top": true
       },
@@ -1362,6 +1566,7 @@
         "precio_media": "",
         "precio_full": "",
         "likes": 119,
+        "imgs": [],
         "img": "",
         "top": true
       },
@@ -1371,6 +1576,12 @@
         "precio_media": "",
         "precio_full": "",
         "likes": 110,
+        "imgs": [
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0350-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0362-1-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0342-2-1920x1278.jpg",
+          "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0344-1-1920x1278.jpg"
+        ],
         "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0350-2-1920x1278.jpg",
         "top": true
       },
@@ -1380,6 +1591,7 @@
         "precio_media": "",
         "precio_full": "5,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1389,6 +1601,7 @@
         "precio_media": "",
         "precio_full": "4",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1398,6 +1611,7 @@
         "precio_media": "",
         "precio_full": "Según Maduración Y Raza / Preguntar",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1407,6 +1621,7 @@
         "precio_media": "8,50",
         "precio_full": "15,50",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1416,6 +1631,7 @@
         "precio_media": "7,75",
         "precio_full": "12,90",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       },
@@ -1425,6 +1641,7 @@
         "precio_media": "34,45",
         "precio_full": "54,95",
         "likes": 0,
+        "imgs": [],
         "img": "",
         "top": false
       }
