@@ -40,6 +40,12 @@ export default function Hero() {
 
       {/* Bottom nav with ratings */}
       <div className="hero__bottom-bar">
+        <div className="hero__bottom-nav">
+          <a href="#carta" className="hero__bottom-link">Cartas</a>
+          <a href="https://www.elrincondejuan.es/hacer-pedido/" target="_blank" rel="noopener noreferrer" className="hero__bottom-link">Hacer Pedido</a>
+          <a href="https://www.elrincondejuan.es/bono-regalo/" target="_blank" rel="noopener noreferrer" className="hero__bottom-link">Regala</a>
+          <a href="#reservas" className="hero__bottom-link hero__bottom-link--highlight">Reserva</a>
+        </div>
         <div className="hero__bottom-ratings">
           <a
             href="https://goo.gl/maps/BRgKun4WBus4WxjYA"
@@ -53,7 +59,6 @@ export default function Hero() {
             </svg>
             <span className="hero__rating-stars">★★★★</span>
             <span className="hero__rating-score">4.4<span className="hero__rating-max">/5</span></span>
-            <span className="hero__rating-label">Google</span>
           </a>
           <div className="hero__rating-divider" />
           <a
@@ -68,14 +73,7 @@ export default function Hero() {
             </svg>
             <span className="hero__rating-stars">★★★★</span>
             <span className="hero__rating-score">4.5<span className="hero__rating-max">/5</span></span>
-            <span className="hero__rating-label">TripAdvisor</span>
           </a>
-        </div>
-        <div className="hero__bottom-nav">
-          <a href="#carta" className="hero__bottom-link">Cartas</a>
-          <a href="https://www.elrincondejuan.es/hacer-pedido/" target="_blank" rel="noopener noreferrer" className="hero__bottom-link">Hacer Pedido</a>
-          <a href="https://www.elrincondejuan.es/bono-regalo/" target="_blank" rel="noopener noreferrer" className="hero__bottom-link">Regala</a>
-          <a href="#reservas" className="hero__bottom-link hero__bottom-link--highlight">Reserva</a>
         </div>
       </div>
     </section>
