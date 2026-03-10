@@ -66,10 +66,6 @@ export default function CartaComida() {
     const cat = cartaData[activeTab]
     if (!cat) return null
 
-    if (activeTab === 'TAPAS') {
-      return <TapasGaleria imgs={cat.imgs} />
-    }
-
     const items = cat.items || []
     return (
       <div className="platos-lista">
