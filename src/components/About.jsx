@@ -49,7 +49,7 @@ export default function About() {
             <span className="about__stat-label">Google Reviews</span>
           </div>
           <div className="about__stat">
-            <span className="about__stat-num">4.2</span>
+            <span className="about__stat-num">4.5</span>
             <span className="about__stat-label">TripAdvisor</span>
           </div>
           <div className="about__stat">

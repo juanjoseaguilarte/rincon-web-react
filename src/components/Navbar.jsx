@@ -1,9 +1,18 @@
 import { useState, useEffect } from 'react'
 import './Navbar.css'
 
+const LANGUAGES = [
+  { code: 'es', label: 'ES', flag: '🇪🇸', href: 'https://www.elrincondejuan.es/' },
+  { code: 'en', label: 'EN', flag: '🇬🇧', href: 'https://www.elrincondejuan.es/en/' },
+  { code: 'fr', label: 'FR', flag: '🇫🇷', href: '#' },
+  { code: 'de', label: 'DE', flag: '🇩🇪', href: '#' },
+  { code: 'ru', label: 'RU', flag: '🇷🇺', href: '#' },
+]
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const [activeLang, setActiveLang] = useState('es')
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 80)
@@ -14,9 +23,22 @@ export default function Navbar() {
   return (
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__container container">
-        {/* Language flags + icons left side */}
+        {/* Language flags - left side */}
         <div className="navbar__left">
-          <a href="tel:678401253" className="navbar__phone">+34 678 40 12 53</a>
+          <div className="navbar__langs">
+            {LANGUAGES.map(lang => (
+              <a
+                key={lang.code}
+                href={lang.href}
+                className={`navbar__lang ${activeLang === lang.code ? 'navbar__lang--active' : ''}`}
+                onClick={(e) => { if (lang.href === '#') e.preventDefault(); setActiveLang(lang.code) }}
+                title={lang.label}
+              >
+                <span className="navbar__lang-flag">{lang.flag}</span>
+                <span className="navbar__lang-code">{lang.label}</span>
+              </a>
+            ))}
+          </div>
         </div>
 
         {/* Centered Logo */}
@@ -27,6 +49,7 @@ export default function Navbar() {
 
         {/* Right links */}
         <nav className="navbar__links">
+          <a href="tel:678401253" className="navbar__phone">+34 678 40 12 53</a>
           <a href="#carta" className="navbar__link">Cartas</a>
           <a href="#reservas" className="navbar__link navbar__link--highlight">Reserva</a>
           <a href="#contacto" className="navbar__link">Contacto</a>
@@ -45,6 +68,14 @@ export default function Navbar() {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="navbar__mobile">
+          <div className="navbar__mobile-langs">
+            {LANGUAGES.map(lang => (
+              <a key={lang.code} href={lang.href} className="navbar__mobile-lang"
+                onClick={() => { setActiveLang(lang.code); setMenuOpen(false) }}>
+                {lang.flag} {lang.label}
+              </a>
+            ))}
+          </div>
           <a href="tel:678401253" className="navbar__mobile-link">+34 678 40 12 53</a>
           <a href="#carta" className="navbar__mobile-link" onClick={() => setMenuOpen(false)}>Cartas</a>
           <a href="#reservas" className="navbar__mobile-link" onClick={() => setMenuOpen(false)}>Reserva</a>
