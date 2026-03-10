@@ -1,0 +1,26 @@
+.under-construction {
+  background: rgba(4,3,4,0.05);
+  border: 2px dashed var(--color-border);
+  padding: 48px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.under-construction__icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.under-construction__text {
+  font-family: var(--font-heading);
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-primary);
+  margin-bottom: 8px;
+}
+
+.under-construction__sub {
+  font-size: 14px;
+  color: var(--color-text-muted);
+}

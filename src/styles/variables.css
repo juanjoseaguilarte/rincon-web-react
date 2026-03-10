@@ -1,0 +1,44 @@
+/* El Rincón de Juan - Design Tokens */
+:root {
+  /* Colors */
+  --color-bg: #040304;
+  --color-bg-light: #edebe3;
+  --color-bg-warm: #e9e4d6;
+  --color-bg-rose: #e7d3cb;
+  --color-text-primary: #040304;
+  --color-text-muted: #756e6b;
+  --color-text-light: #e9e4d6;
+  --color-text-gray: #9faaa7;
+  --color-border: #ccd3d7;
+  --color-accent: #756e6b;
+
+  /* Fonts */
+  --font-display: 'BagdollDisplay', serif;
+  --font-heading: 'FFGoodProCond', sans-serif;
+  --font-body: 'Lato', sans-serif;
+
+  /* Spacing */
+  --section-padding: 80px 0;
+  --container-max: 1200px;
+}
+
+@font-face {
+  font-family: 'BagdollDisplay';
+  src: url('/fonts/BagdollDisplay-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FFGoodProCond';
+  src: url('/fonts/FFGoodProCond-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
