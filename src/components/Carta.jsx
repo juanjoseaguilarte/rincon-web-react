@@ -1,63 +1,45 @@
 import { useState } from 'react'
+import cartaData from '../data/carta_data.json'
+import UnderConstruction from './UnderConstruction'
 import './Carta.css'
 
-const CARTAS = [
-  {
-    id: 'comida',
-    label: 'Comida',
-    title: 'Carta de Comida',
+const TABS = ['Raciones', 'Burgers', 'Orientales y Sushis', 'Rolls', 'Carnes', 'Postres', 'Baguettes Gourmet']
+const CARTA_TYPES = ['comida', 'bebidas', 'bodega']
+
+const CARTA_INFO = {
+  comida: {
+    label: 'Carta de Comida',
+    icon: '🍽️',
     subtitle: 'Tapas · Raciones · Burgers · Sushi · Carnes',
-    portada: '/carta/portada-comida.jpg',
-    type: 'images',
-    images: [
-      { src: '/carta/menu-comida-1.jpg', alt: 'Carta de comida - página 1' },
-      { src: '/carta/menu-comida-2.jpg', alt: 'Carta de comida - página 2' },
-      { src: '/carta/menu-comida-3.jpg', alt: 'Carta de comida - página 3' },
-      { src: '/carta/menu-comida-4.jpg', alt: 'Carta de comida - página 4' },
-      { src: '/carta/menu-comida-5.jpg', alt: 'Carta de comida - página 5' },
-      { src: '/carta/menu-comida-6.jpg', alt: 'Carta de comida - página 6' },
-      { src: '/carta/menu-comida-7.jpg', alt: 'Carta de comida - página 7' },
-    ],
   },
-  {
-    id: 'bebidas',
-    label: 'Bebidas',
-    title: 'Carta de Bebidas',
+  bebidas: {
+    label: 'Carta de Bebidas',
+    icon: '🥂',
     subtitle: 'Cócteles · Vinos · Cervezas · Refrescos',
-    portada: '/carta/portada-bebidas.jpg',
-    type: 'images',
-    images: [
-      { src: '/carta/portada-bebidas.jpg', alt: 'Carta de bebidas' },
-    ],
   },
-  {
-    id: 'bodega',
+  bodega: {
     label: 'Bodega',
-    title: 'Bodega',
+    icon: '🍷',
     subtitle: 'Nuestra selección de vinos',
-    portada: '/carta/portada-bodega.jpg',
-    type: 'construccion',
-    images: [],
   },
-]
+}
 
 export default function Carta() {
   const [activeCarta, setActiveCarta] = useState(null)
-  const [lightbox, setLightbox] = useState(null) // { images, index }
+  const [activeTab, setActiveTab] = useState('Raciones')
 
-  const openCarta = (id) => {
-    setActiveCarta(id)
-    setTimeout(() => {
-      document.getElementById('carta-detail')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }, 100)
+  const platos = cartaData[activeTab] || []
+
+  const handleCartaClick = (type) => {
+    if (activeCarta === type) {
+      setActiveCarta(null)
+    } else {
+      setActiveCarta(type)
+      setTimeout(() => {
+        document.getElementById('carta-detail')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }, 100)
+    }
   }
-
-  const openLightbox = (images, index) => setLightbox({ images, index })
-  const closeLightbox = () => setLightbox(null)
-  const prevImg = () => setLightbox(lb => ({ ...lb, index: (lb.index - 1 + lb.images.length) % lb.images.length }))
-  const nextImg = () => setLightbox(lb => ({ ...lb, index: (lb.index + 1) % lb.images.length }))
-
-  const active = CARTAS.find(c => c.id === activeCarta)
 
   return (
     <section className="carta section" id="carta">
@@ -71,115 +53,94 @@ export default function Carta() {
         </p>
       </div>
 
-      {/* 3 Cover cards — like the original "todas las cartas" */}
-      <div className="carta__cards-wrapper">
-        <div className="carta__cards container">
-          {CARTAS.map(c => (
+      {/* 3 selector cards */}
+      <div className="carta__selector container">
+        {CARTA_TYPES.map(type => {
+          const info = CARTA_INFO[type]
+          return (
             <div
-              key={c.id}
-              className={`carta__card${activeCarta === c.id ? ' carta__card--active' : ''}`}
-              style={{ backgroundImage: `url(${c.portada})` }}
+              key={type}
+              className={`carta__selector-card${activeCarta === type ? ' carta__selector-card--active' : ''}`}
+              onClick={() => handleCartaClick(type)}
             >
-              <div className="carta__card-overlay">
-                <h3 className="carta__card-title">{c.title.toUpperCase()}</h3>
-                <p className="carta__card-sub">{c.subtitle}</p>
-                <button
-                  className="carta__card-btn"
-                  onClick={() => openCarta(activeCarta === c.id ? null : c.id)}
-                >
-                  {activeCarta === c.id ? 'Cerrar' : 'Ver carta'}
-                </button>
-              </div>
+              <span className="carta__selector-icon">{info.icon}</span>
+              <h3 className="carta__selector-title">{info.label}</h3>
+              <p className="carta__selector-sub">{info.subtitle}</p>
+              <span className="carta__selector-btn">
+                {activeCarta === type ? 'Cerrar' : 'Ver carta'}
+              </span>
             </div>
-          ))}
-        </div>
+          )
+        })}
       </div>
 
       {/* Detail panel */}
-      {activeCarta && active && (
+      {activeCarta && (
         <div className="carta__detail" id="carta-detail">
-          {/* Category tabs */}
-          <div className="carta__tabs-wrapper">
-            <nav className="carta__tabs">
-              {CARTAS.map(c => (
-                <button
-                  key={c.id}
-                  className={`carta__tab${activeCarta === c.id ? ' carta__tab--active' : ''}`}
-                  onClick={() => openCarta(c.id)}
-                >
-                  {c.label.toUpperCase()}
-                </button>
-              ))}
-            </nav>
-          </div>
+          {activeCarta === 'bebidas' && (
+            <div className="carta__bebidas container">
+              <span className="carta__bebidas-icon">🥂</span>
+              <h3>Carta de Bebidas</h3>
+              <p>Consulta nuestra carta de bebidas directamente en el local.<br />
+              Te sorprenderemos con nuestra selección de cócteles, vinos y cervezas artesanas.</p>
+            </div>
+          )}
 
-          <div className="carta__detail-inner container">
-            <h3 className="carta__detail-title">{active.title}</h3>
+          {activeCarta === 'bodega' && (
+            <div className="container">
+              <UnderConstruction />
+            </div>
+          )}
 
-            {active.type === 'construccion' && (
-              <div className="carta__construccion">
-                <div className="carta__construccion-img">
-                  <img src={active.portada} alt="Bodega" />
-                </div>
-                <div className="carta__construccion-text">
-                  <span className="carta__construccion-icon">🍷</span>
-                  <h4>En construcción</h4>
-                  <p>Estamos preparando nuestra selección de vinos.<br />Pronto disponible.</p>
-                </div>
-              </div>
-            )}
-
-            {active.type === 'images' && (
-              <div className="carta__menu-pages">
-                {active.images.map((img, i) => (
-                  <div key={i} className="carta__menu-page">
-                    <img
-                      src={img.src}
-                      alt={img.alt}
-                      className="carta__menu-page-img"
-                      onClick={() => openLightbox(active.images, i)}
-                    />
+          {activeCarta === 'comida' && (
+            <div className="carta__comida">
+              {/* Category tabs */}
+              <div className="carta__tabs-wrapper">
+                <nav className="carta__tabs">
+                  {TABS.map(tab => (
                     <button
-                      className="carta__zoom-btn"
-                      onClick={() => openLightbox(active.images, i)}
-                      title="Ver en grande"
+                      key={tab}
+                      className={`carta__tab${activeTab === tab ? ' carta__tab--active' : ''}`}
+                      onClick={() => setActiveTab(tab)}
                     >
-                      🔍 Ver en grande
+                      {tab}
                     </button>
+                  ))}
+                </nav>
+              </div>
+
+              {/* Grid de platos */}
+              <div className="carta__platos container">
+                {platos.map((plato, i) => (
+                  <div key={i} className="carta__plato-card">
+                    {plato.featured && (
+                      <span className="carta__plato-badge">⭐ Destacado</span>
+                    )}
+                    <div className="carta__plato-img-wrap">
+                      <img
+                        src={plato.img}
+                        alt={plato.name}
+                        className="carta__plato-img"
+                        loading="lazy"
+                        onError={e => { e.target.style.opacity = '0.3' }}
+                      />
+                    </div>
+                    <div className="carta__plato-body">
+                      <h4 className="carta__plato-name">{plato.name}</h4>
+                      {plato.desc && (
+                        <p className="carta__plato-desc">{plato.desc}</p>
+                      )}
+                      <span className="carta__plato-price">Consultar</span>
+                    </div>
                   </div>
                 ))}
               </div>
-            )}
 
-            <div className="carta__cta">
-              <a href="#reservas" className="btn btn-primary">Reserva tu mesa</a>
+              <div className="carta__cta container">
+                <a href="#reservas" className="btn btn-primary">Reserva tu mesa</a>
+              </div>
             </div>
-          </div>
-        </div>
-      )}
-
-      {/* Lightbox */}
-      {lightbox && (
-        <div className="carta__lightbox" onClick={closeLightbox}>
-          <button className="carta__lightbox-close" onClick={closeLightbox}>✕</button>
-          <button
-            className="carta__lightbox-prev"
-            onClick={e => { e.stopPropagation(); prevImg() }}
-          >‹</button>
-          <div className="carta__lightbox-img-wrap" onClick={e => e.stopPropagation()}>
-            <img
-              src={lightbox.images[lightbox.index].src}
-              alt={lightbox.images[lightbox.index].alt}
-              className="carta__lightbox-img"
-            />
-            <p className="carta__lightbox-counter">
-              {lightbox.index + 1} / {lightbox.images.length}
-            </p>
-          </div>
-          <button
-            className="carta__lightbox-next"
-            onClick={e => { e.stopPropagation(); nextImg() }}
-          >›</button>
+          )}
         </div>
       )}
     </section>

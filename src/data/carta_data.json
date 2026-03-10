@@ -1,0 +1,532 @@
+{
+  "Raciones": [
+    {
+      "name": "HUEVOS ROTOS GOURMET",
+      "desc": "Patatas y 3 huevos camperos fritos en AOVE, con jamón ibérico de bellota cortado a cuchillo.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/huevos-rotos.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "HUEVOS ROTOS CLÁSICOS",
+      "desc": "Patatas y 3 huevos camperos fritos en AOVE.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ENSALADILLA MACKINTOSH",
+      "desc": "Deliciosa y sostenible. Así es nuestra ensaladilla gracias al atún rojo de pesca artesanal de Tarifa.\nPatatas y zanahorias cocidas, dados de atún JC Mackintosh, mayonesa de ajo confitado y huevo frito en AOVE",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/ENSALADILLA-MACK-300x194.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "CHIPS DE BERENJENA FRITAS EN AOVE",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "QUESO CURADO DE OVEJA RACIÓN",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/queso-curado.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "QUESO CURADO DE OVEJA MEDIA",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/queso-curado.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "PATÉ DE BOLETUS Y QUESO",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "JAMÓN IBÉRICO DE BELLOTA DE JABUGO RACIÓN",
+      "desc": "Un bocado 5 estrellas. Disfruta del auténtico sabor y del corte perfecto.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/JAMON-IBERICO-300x234.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "JAMÓN IBÉRICO DE BELLOTA DE JABUGO MEDIA",
+      "desc": "Un bocado 5 estrellas. Disfruta del auténtico sabor y del corte perfecto.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/IMG_0433-e1701851337686-300x284.jpeg",
+      "price": "Consultar"
+    },
+    {
+      "name": "HUEVOS ROTOS CON PATA",
+      "desc": "Patatas y 2 huevos camperos fritos en AOVE, con pata al horno.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "GAMBONES A LA PLANCHA",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/gambones.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "TARTAR DE ATÚN ROJO",
+      "desc": "Sabroso y de kilómetro 0. Una receta sencilla, pero de sabor extraordinario traído directamente desde El Estrecho.\nAtún rojo, cebolla, aguacate y soja.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/TARTAR-300x220.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "PATÉ DE PERDIZ",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/pate-de-perdiz.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "PATA DE CERDO CASERA AL HORNO CON AOVE Y SAL RACIÓN",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/pata-al-horno.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "PATA DE CERDO CASERA AL HORNO CON AOVE Y SAL MEDIA",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/pata-al-horno.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "JAMÓN IBÉRICO DE BELLOTA &amp; PATA AL HORNO CON AOVE Y SAL",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ENSALADILLA RUSA MEDIA",
+      "desc": "La reina del picoteo. Nada mejor que empezar con una rusa fresca y cremosa para abrir boca.\nPatatas y zanahorias, atún, huevo cocido y mayonesa.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/ENSALADILLA-RUSA-300x220.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ENSALADILLA RUSA RACIÓN",
+      "desc": "La reina del picoteo. Nada mejor que empezar con una rusa fresca y cremosa para abrir boca.\nPatatas y zanahorias, atún, huevo cocido y mayonesa.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/ENSALADILLA-RUSA-300x220.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ENSALADA DE JUAN",
+      "desc": "Tomate pelado, aguacate en tiras, cebolla morada y vinagreta de Juan.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/DSC01959-Edited-e1701851449394-300x300.jpeg",
+      "price": "Consultar"
+    },
+    {
+      "name": "PIMIENTOS DE PADRÓN FRITOS EN AOVE",
+      "desc": "Unos pican y otros no. Pero los nuestros, además, tienen el sabor premium del mejor aceite de oliva.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Copia-de-Diseno-sin-titulo-1-300x300.png",
+      "price": "Consultar"
+    }
+  ],
+  "Burgers": [
+    {
+      "name": "BURGER GOURMET AL GUSTO",
+      "desc": "Elige tu los ingredientes!!! Los ingredientes extras que se pongan como comentario, no se agregarán al pedido. Con patatas.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Copia-de-Diseno-sin-titulo-2-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BURGER GOURMET RÚCULA",
+      "desc": "150g de solomillo de vaca picada en nuestro rincón, rúcula, queso cheddar y mayonesa &amp; patatas fritas.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-1-300x300.jpg",
+      "price": "Consultar"
+    },
+    {
+      "name": "BURGER GOURMET PEPINILLA",
+      "desc": "Dos Burgers de 150g de solomillo de vaca picada en nuestro rincón, pepinillo, cebolla, queso cheddar, ketchup y mostaza &amp; patatas fritas.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-1-300x300.jpg",
+      "price": "Consultar"
+    },
+    {
+      "name": "BURGER GOURMET GAUCHA",
+      "desc": "150g de solomillo de vaca picada en nuestro rincón, lechuga, cebolla,pepinillo, queso cheddar y salsa gaucha &amp; patatas fritas.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-1-300x300.jpg",
+      "price": "Consultar"
+    },
+    {
+      "name": "BURGER GOURMET FRITA",
+      "desc": "Disfruta por encima del decoro. Sabes que necesitarás la servilleta cerca, pero querrás chuparte los dedos.\n150g de solomillo de vaca picada en nuestro rincón, huevo frito, cebolla frita, tomate y mayonesa &amp; patatas fritas.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/frita-300x212.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BURGER GOURMET DE JUAN",
+      "desc": "150g de solomillo de vaca picada en nuestro rincón, pepinillo, cebolla morada, tomate, salsa rosa casera y cubierta de salsa de queso cheddar &amp; patatas fritas.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BURGER GOURMET CLÁSICA",
+      "desc": "150g de solomillo de vaca picada en nuestro rincón, lechuga, cebolla, tomate, queso cheddar, mostaza y mayonesa &amp; patatas fritas.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "MINI BURGER JAPONESA",
+      "desc": "Carne de vaca madurada y picada en nuestro rincón. Lechuga, queso rallado y salsas barbacoa y japonesa.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BURGER GOURMET CHICKOA",
+      "desc": "Tiras crujientes de pechuga de pollo en tempura, lechuga, queso cheddar, alioli y toque de siracha &amp; patatas fritas.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-1-300x300.jpg",
+      "price": "Consultar"
+    },
+    {
+      "name": "BURGER GOURMET DE MARY",
+      "desc": "Tiras crujientes de pechuga de pollo en tempura, bacon, lechuga, tomate y mayonesa &amp; patatas fritas.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-1-300x300.jpg",
+      "price": "Consultar"
+    },
+    {
+      "name": "BURGER GOURMET WAGYU",
+      "desc": "Sin palabras. Si eres un auténtico amante de las hamburguesas esta es tu Burger preferida, garantizado.\n150g de auténtica carne de wagyu nacional, bacon,lechuga, queso cheddar y mayonesa &amp; patatas fritas.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/wagy-300x199.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BURGER GOURMET LITTLE JOHN",
+      "desc": "150 g de carne madurada 45 días y picada en nuestro rincón, y queso rallado, cheddar y roquefort &amp; patatas fritas.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-1-300x300.jpg",
+      "price": "Consultar"
+    },
+    {
+      "name": "BURGER GOURMET DONNA",
+      "desc": "150 g de carne madurada 45 días y picada en nuestro rincón, tomate, cebolla crujiente,queso cheddar,mostaza y mayonesa &amp; patatas fritas.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-1-300x300.jpg",
+      "price": "Consultar"
+    },
+    {
+      "name": "MINI BURGER 3 QUESOS",
+      "desc": "Carne de vaca madurada y picada en nuestro rincón y queso rallado, cheddar y roquefort.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "MINI BURGER CRUNCHY",
+      "desc": "Carne de vaca madurada y picada en nuestro rincón, cebolla crujiente, tomate, queso cheddar, mostaza y mayonesa.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "MINI BURGER CARAMELIZADA",
+      "desc": "Solomillo de vaca picada en nuestro rincón, cebolla caramelizada y mostaza.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "MINI BURGER CLÁSICA",
+      "desc": "Un sabor que nunca falla. Si no sabes por cual decidirte esta Burger te dejará más que satisfecho.\nSolomillo de vaca picada en nuestro rincón, queso cheddar, rúcula y mayonesa.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0123-1-300x200.jpg",
+      "price": "Consultar"
+    },
+    {
+      "name": "MINI BURGER AFRICANA",
+      "desc": "Solomillo de vaca picada en nuestro rincón, cebolla frita y salsa africana.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/hamburguesa-madurada-285x300.png",
+      "price": "Consultar"
+    }
+  ],
+  "Orientales y Sushis": [
+    {
+      "name": "POKÉ AL GUSTO",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-2-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BAO DE TIGRE",
+      "desc": "Un espectáculo completo. Vista, olfato, oído, gusto y tacto entran en juego en la cata de este montadito oriental.\nPan Bao negro,langostino tigre en tempura, verduras y salsa japonesa.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/bao-300x194.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BAO DE MACKINTOSH",
+      "desc": "Pan Bao blanco, atún rojo JC Mackintosh, aguacate, cebolla morada y salsa teriyaki.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-2-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "POKÉ DE SALMÓN",
+      "desc": "Arroz blanco, salmón, edamame, pepino, aguacate, sésamo, mix de frutos secos y salsas ponzu y de soja.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-2-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "POKÉ DE ATÚN",
+      "desc": "Arroz blanco, atún, edamame, pepino, aguacate, zanahoria, sésamo, germinado y salsas ponzu y de soja.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-2-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "NIGIRI DE ATÚN ROJO 3 UND",
+      "desc": "Nigiri De Atún Rojo JC Mackintosh 1 UND",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/photo-output-e1701850887723-300x293.jpeg",
+      "price": "Consultar"
+    },
+    {
+      "name": "NIGIRI DE SALMÓN 3 UND",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-2-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "GYOZAS DE GAMBAS",
+      "desc": "Empanadillas japonesas rellenas de gambas (4 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/36-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "NIGIRI DE HUEVO DE CODORNIZ Y TRUFA &#8211; 3 UND",
+      "desc": "Sorprendente y exquisito. Una combinación arriesgada para valientes que quieren probar nuevos placeres.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/nigiri-de-huevo-300x204.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "NIGIRI DE SALMÓN BRASEADO &#8211; 3 UND",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-2-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BAO DE POLLO",
+      "desc": "Pan Bao negro, pollo rebozado al estilo japonés, rúcula y salsa de curry y especias.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/bao-negro.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "GYOZAS DE POLLO",
+      "desc": "Empanadillas japonesas rellenas de pollo (4 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/36-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BAO DE CERDO ASADO",
+      "desc": "Pan Bao blanco con cerdo asado, verduras y salsa yakitori.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/PAN-BAO-BLANCO.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "GYOZAS DE PATO",
+      "desc": "Empanadillas japonesas rellenas de pato (4 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/36-300x300.png",
+      "price": "Consultar"
+    }
+  ],
+  "Rolls": [
+    {
+      "name": "ROLL TROPICAL MAKI",
+      "desc": "Langostino en tempura, aguacate y salsa japonesa (8 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-2-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL PIMPI MAKI",
+      "desc": "Salmón y aguacate, en tempura (8 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/pimpi-maki-286x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL HOT MAKI",
+      "desc": "Atún rojo picante, aguacate y tofu (8 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-2-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL EL RINCÓN MAKI",
+      "desc": "Atún, tofu frito, tobiko y mayonesa (8 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/el-rincon.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL CALIFORNIA MAKI",
+      "desc": "Cangrejo, aguacate, pepino, mayonesa y sésamo (8 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/california-maki-1-280x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL WAKAME MAKI",
+      "desc": "Atún, wakame y tobiko (8 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/tabaki.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL SALMÓN CREAM MAKI",
+      "desc": "Salmón y queso crema, en tempura, con sésamo, salsa japonesa y salsa agridulce (8 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-2-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL KENTUKY MAKI",
+      "desc": "Pollo frito,pepino, yakitori y mayonesa (8 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/kentuky.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL UMAI MAKI",
+      "desc": "Mmmm Umami. Si aún no conoces este término, con este plato descubrirás lo que significa realmente la palabra sabrosura.\nAtún rojo, langostino en tempura, cebolla crujiente y salsas japonesa y agridulce (8 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/roll-umai-maki-300x169.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL SALMÓN MAKI",
+      "desc": "Salmón ,aguacate y pepino (8 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/salmon-maki-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL NEW YORK MAKI",
+      "desc": "Salmón, aguacate, crema Philadelphia y sésamo (8 pzs).",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/new-york.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL GALLEGO MAKI",
+      "desc": "Filete de solomillo a la parrilla, cebolla crujiente y mostaza (8 pzs)",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/gallega-maki.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL DELICIA MAKI",
+      "desc": "Langostino cocido,pepino y crema Philadelphia (8 pzs)",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-2-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ROLL ALMADRABA MAKI",
+      "desc": "Atún de Almadraba, aguacate y tobiko, en tempura (8 pzs)",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/almadrab.png",
+      "price": "Consultar"
+    }
+  ],
+  "Carnes": [
+    {
+      "name": "CHATEAUBRIAND DE SOLOMILLO DE VACA RACIÓN",
+      "desc": "Solomillo de vaca, cortado en finos filetes, para hacer en casa a la placha.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/chateau-300x170.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "SOLOMILLO DE CERDO IBÉRICO A LA PIMIENTA VERDE",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "SOLOMILLO DE CERDO IBÉRICO A LA PARRILLA",
+      "desc": "Tierno, jugoso&#8230; delicioso. Un clásico entre los clásicos con el que siempre triunfarás.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/solomillo-de-cerdo-300x199.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "SECRETO IBÉRICO A LA PARRILLA",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/secreto-iberico.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "CHATEAUBRIAND DE SOLOMILLO DE VACA MEDIA",
+      "desc": "Solomillo de vaca, cortado en finos filetes, para hacer en casa a la placha.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/chateau-300x170.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "SOLOMILLO DE CERDO IBÉRCO AL ROQUEFORT",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "SOLOMILLO DE VACA A LA PARRILLA",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/solomillo-de-vaca-1.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BROCHETA DE SOLOMILLO DE CERDO IBÉRICO A LA PARRILLA CON VERDURAS",
+      "desc": "",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "ENTRECOT MADURADO",
+      "desc": "Exquisita paciencia. 45 días es el tiempo que pasa esta carne en nuestro rincón para que tú te deleites con ella.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    }
+  ],
+  "Postres": [
+    {
+      "name": "TARTA DE NUTELLA",
+      "desc": "Bizcocho y cobertura en crema de Nutella con sirope de chocolate.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/TARTA-DE-NUTELLA-300x162.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "TARTA DE QUESO",
+      "desc": "Receta clásica de crema de queso al horno.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/TARTA-DE-QUESO-300x194.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "TARTA DE OREO",
+      "desc": "Tarta de chocolate blanco sobre bizcocho de galleta oreo.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/TARTA-DE-OREO-300x191.png",
+      "price": "Consultar"
+    }
+  ],
+  "Baguettes Gourmet": [
+    {
+      "name": "BAGUETTE ROQUEFORT Y CEBOLLA CARAMELIZADA",
+      "desc": "Baguette crujiente, con roquefort y cebolla caramelizada &amp; patatas fritas",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BAGUETTE GAUCHA",
+      "desc": "Baguette crujiente, con gaucha &amp; patatas fritas",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BAGUETTE CHEDDAR, MAYO Y RUCULA",
+      "desc": "Baguette crujiente, con cheddar, mayonesa y rucula &amp; patatas fritas",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BAGUETTE CON ALIOLI",
+      "desc": "Baguette crujiente, con alioli &amp; patatas fritas",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BAGUETTE CAMPERO",
+      "desc": "Baguette crujiente, campero con jamón y queso curado &amp; patatas fritas",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BAGUETTE SERRANITO",
+      "desc": "Baguette crujiente, serranito, con jamón y pimiento frito en aceite de olva virgen extra &amp; patatas fritas",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BAGUETTE AFRICANO",
+      "desc": "Baguette crujiente, con salsa africana y cebolla frita &amp; patatas fritas",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    },
+    {
+      "name": "BAGUETTE A TU GUSTO",
+      "desc": "Elige los ingredientes que mas te gusten. Los ingredientes extras que se pongan como comentario, no se agregarán al pedido.",
+      "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/Diseno-sin-titulo-3-300x300.png",
+      "price": "Consultar"
+    }
+  ]
+}
