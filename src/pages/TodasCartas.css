@@ -1,0 +1,108 @@
+.todas-cartas {
+  min-height: 100vh;
+  background: #040304;
+  color: #f5eedc;
+  padding: 4rem 2rem;
+}
+
+.todas-cartas__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.todas-cartas__label {
+  color: #a0b89a;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 0 0 0.5rem;
+}
+
+.todas-cartas__title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #f5eedc;
+  margin: 0;
+  letter-spacing: 0.03em;
+}
+
+.todas-cartas__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.carta-tarjeta {
+  background: #0d0c0d;
+  border: 1px solid #1a2a20;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.25s, border-color 0.25s;
+}
+.carta-tarjeta:hover {
+  transform: translateY(-4px);
+  border-color: #203b2f;
+}
+
+.carta-tarjeta__img-wrap {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.carta-tarjeta__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+.carta-tarjeta:hover .carta-tarjeta__img { transform: scale(1.04); }
+
+.carta-tarjeta__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 40%, rgba(4,3,4,0.85) 100%);
+}
+
+.carta-tarjeta__body {
+  padding: 1.4rem 1.5rem 1.5rem;
+}
+
+.carta-tarjeta__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #f5eedc;
+  margin: 0 0 0.3rem;
+  letter-spacing: 0.03em;
+}
+
+.carta-tarjeta__subtitle {
+  color: #888;
+  font-size: 0.83rem;
+  margin: 0 0 1.2rem;
+  line-height: 1.4;
+}
+
+.carta-tarjeta__btn {
+  display: inline-block;
+  background: #203b2f;
+  color: #f5eedc;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.6rem 1.4rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.carta-tarjeta__btn:hover { background: #2e5542; }
+
+@media (max-width: 600px) {
+  .todas-cartas { padding: 3rem 1rem; }
+  .todas-cartas__title { font-size: 1.8rem; }
+  .todas-cartas__grid { gap: 1.2rem; }
+}

@@ -293,3 +293,83 @@
   margin-top: 48px;
   padding-bottom: 8px;
 }
+
+/* ─── New Card Grid (portadas) ──────────────────────────── */
+.carta__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.carta__tarjeta {
+  background: #0d0c0d;
+  border: 1px solid #1a2a20;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.25s, border-color 0.25s;
+}
+.carta__tarjeta:hover {
+  transform: translateY(-4px);
+  border-color: #203b2f;
+}
+
+.carta__tarjeta-img-wrap {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.carta__tarjeta-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+.carta__tarjeta:hover .carta__tarjeta-img { transform: scale(1.04); }
+
+.carta__tarjeta-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 40%, rgba(4,3,4,0.85) 100%);
+}
+
+.carta__tarjeta-body {
+  padding: 1.4rem 1.5rem 1.5rem;
+}
+
+.carta__tarjeta-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #f5eedc;
+  margin: 0 0 0.3rem;
+  letter-spacing: 0.03em;
+}
+
+.carta__tarjeta-sub {
+  color: #888;
+  font-size: 0.83rem;
+  margin: 0 0 1.2rem;
+  line-height: 1.4;
+}
+
+.carta__tarjeta-btn {
+  display: inline-block;
+  background: #203b2f;
+  color: #f5eedc;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.6rem 1.4rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.carta__tarjeta-btn:hover { background: #2e5542; }
+
+@media (max-width: 600px) {
+  .carta__grid { padding: 0 1rem; gap: 1.2rem; }
+}

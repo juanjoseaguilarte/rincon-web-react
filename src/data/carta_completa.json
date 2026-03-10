@@ -1,0 +1,1332 @@
+{
+  "TAPAS": {
+    "type": "images",
+    "imgs": [
+      "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2026/01/1.jpg",
+      "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2026/01/2.jpg",
+      "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2026/01/4-1117x2000.jpg",
+      "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2026/01/5-924x2000.jpg",
+      "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/11/3.jpg",
+      "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/11/4.jpg",
+      "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/11/5.jpg"
+    ]
+  },
+  "RACIONES": {
+    "type": "platos",
+    "items": [
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas intensas de atún rojo JC Mackintosh con salsa de tomate casera. Sabor potente, marino y auténtico.",
+        "precio_media": "8,50",
+        "precio_full": "15,50",
+        "likes": 131,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Albóndigas De Solomillo De Vaca",
+        "desc": "Albóndigas de solomillo de vaca en salsa cremosa de pimienta verde o al roquefort o en tomate",
+        "precio_media": "7,75",
+        "precio_full": "12,90",
+        "likes": 136,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Tartar De Salmón",
+        "desc": "Tartar de salmón fresco con cremoso aguacate, acompañado de tobiko naranja y un toque de suave mayonesa. Un bocado delicioso y equilibrado",
+        "precio_media": "",
+        "precio_full": "14,50",
+        "likes": 249,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Pimientos de Padrón fritos en AOVE",
+        "desc": "Unos pican y otros no. Pero los nuestros, además, tienen el sabor premium del mejor aceite de oliva.",
+        "precio_media": "",
+        "precio_full": "7,95",
+        "likes": 143,
+        "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0050-2-1920x1278.jpg",
+        "top": true
+      },
+      {
+        "name": "Alitas De Pollo A Baja Temperatura  Fritas",
+        "desc": "Cocinadas lentamente para que queden tiernas por dentro y luego fritas para un exterior crujiente. Puedes elegirlas con salsa barbacoa, picante o al natural. ¡Tú decides el toque final!",
+        "precio_media": "",
+        "precio_full": "8,90",
+        "likes": 116,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Trío De Cerdo Asado Al Sabor Porcino",
+        "desc": "3 Tacos De Cerdo Asado, Cebolla Morada, Pepinillo, Gaucha Y Toque De Siracha",
+        "precio_media": "",
+        "precio_full": "16,50",
+        "likes": 263,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Pata de Cerdo Casera al Horno con AOVE y sal",
+        "desc": "Pata de Cerdo Casera al Horno con AOVE y sal",
+        "precio_media": "7,45",
+        "precio_full": "12,50",
+        "likes": 80,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Paté de Boletus y Queso",
+        "desc": "Paté de Boletus y Queso",
+        "precio_media": "",
+        "precio_full": "14,50",
+        "likes": 69,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Paté de Perdiz",
+        "desc": "Paté de Perdiz",
+        "precio_media": "",
+        "precio_full": "11,75",
+        "likes": 50,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Queso Curado de Oveja",
+        "desc": "Queso Curado de Oveja",
+        "precio_media": "8,75",
+        "precio_full": "12,5",
+        "likes": 62,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Guacamole Con Topopos Fritos",
+        "desc": "Guacamole fresco acompañado de crujientes topopos fritos, ideal para compartir como entrada o acompañamiento.",
+        "precio_media": "",
+        "precio_full": "9,50",
+        "likes": 185,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Tartar de Atún Rojo",
+        "desc": "Sabroso y de kilómetro 0. Una receta sencilla, pero de sabor extraordinario traído directamente desde El Estrecho.",
+        "precio_media": "",
+        "precio_full": "19,5",
+        "likes": 6136,
+        "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/09/DSC0088-2-1-1920x1278.jpg",
+        "top": true
+      },
+      {
+        "name": "Chips de Berenjena fritas en AOVE",
+        "desc": "Chips de Berenjena fritas en AOVE",
+        "precio_media": "",
+        "precio_full": "8,90",
+        "likes": 58,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Ensalada de Juan",
+        "desc": "Ensalada de Juan",
+        "precio_media": "",
+        "precio_full": "12,45",
+        "likes": 51,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Ensaladilla Mackintosh",
+        "desc": "Deliciosa y sostenible. Así es nuestra ensaladilla gracias al atún rojo de pesca artesanal de Tarifa.",
+        "precio_media": "",
+        "precio_full": "14,45",
+        "likes": 592,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Ensaladilla Rusa",
+        "desc": "La reina del picoteo. Nada mejor que empezar con una rusa fresca y cremosa para abrir boca.",
+        "precio_media": "5,35",
+        "precio_full": "8,35",
+        "likes": 102,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Gambones a la Plancha",
+        "desc": "Gambones a la Plancha",
+        "precio_media": "",
+        "precio_full": "22",
+        "likes": 54,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Huevos Rotos Clásicos",
+        "desc": "Huevos Rotos Clásicos",
+        "precio_media": "",
+        "precio_full": "7,45",
+        "likes": 34,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Huevos Rotos con Pata",
+        "desc": "Huevos Rotos con Pata",
+        "precio_media": "",
+        "precio_full": "12,5",
+        "likes": 68,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Huevos Rotos Gourmet",
+        "desc": "Huevos Rotos Gourmet",
+        "precio_media": "",
+        "precio_full": "15,95",
+        "likes": 73,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Palomitas De Pollo",
+        "desc": "Tiernos trocitos de pollo rebozado y crujiente, servidos en un original cartucho de palomitas. Una forma divertida y deliciosa de picar.",
+        "precio_media": "",
+        "precio_full": "9,90",
+        "likes": 54,
+        "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/08/1-80821891-1500x2000.jpg",
+        "top": true
+      },
+      {
+        "name": "Jamón Ibérico de Bellota &amp; Pata al Horno con AOVE y sal",
+        "desc": "Jamón Ibérico de Bellota &amp; Pata al Horno con AOVE y sal",
+        "precio_media": "",
+        "precio_full": "16,95",
+        "likes": 54,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Jamón Ibérico de Bellota de Jabugo",
+        "desc": "Un bocado 5 estrellas. Disfruta del auténtico sabor y del corte perfecto.",
+        "precio_media": "13,95",
+        "precio_full": "24,95",
+        "likes": 78,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Jamón Ibérico de Bellota de Jabugo &amp; Queso Curado de Oveja",
+        "desc": "Jamón Ibérico de Bellota de Jabugo &amp; Queso Curado de Oveja",
+        "precio_media": "",
+        "precio_full": "16,95",
+        "likes": 65,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "",
+        "precio_full": "5,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Rock&amp;Roll Ibérico",
+        "desc": "Rock&amp;Roll Ibérico",
+        "precio_media": "",
+        "precio_full": "4",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Lomo Bajo Madurado A La Parrilla",
+        "desc": "Lomo Bajo Madurado A La Parrilla",
+        "precio_media": "",
+        "precio_full": "Según Maduración Y Raza / Preguntar",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "8,50",
+        "precio_full": "15,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Solomillo De Vaca",
+        "desc": "Albóndigas De Solomillo De Vaca",
+        "precio_media": "7,75",
+        "precio_full": "12,90",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Chateaubriand de Solomillo de Vaca",
+        "desc": "Chateaubriand de Solomillo de Vaca",
+        "precio_media": "34,45",
+        "precio_full": "54,95",
+        "likes": 0,
+        "img": "",
+        "top": false
+      }
+    ]
+  },
+  "MINI BURGERS": {
+    "type": "platos",
+    "items": [
+      {
+        "name": "Mini Burger Clásica",
+        "desc": "Un sabor que nunca falla. Si no sabes por cual decidirte esta Burger te dejará más que satisfecho.",
+        "precio_media": "",
+        "precio_full": "3,75",
+        "likes": 137,
+        "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0123-1-1920x1278.jpg",
+        "top": true
+      },
+      {
+        "name": "Mini Burger Japonesa",
+        "desc": "Mini Burger Japonesa",
+        "precio_media": "",
+        "precio_full": "4,45",
+        "likes": 110,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Mini Burger 3 Quesos",
+        "desc": "Mini Burger 3 Quesos",
+        "precio_media": "",
+        "precio_full": "3,95",
+        "likes": 74,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Mini Burger Crunchy",
+        "desc": "Mini Burger Crunchy",
+        "precio_media": "",
+        "precio_full": "3,95",
+        "likes": 84,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Mini Burger Africana",
+        "desc": "Mini Burger Africana",
+        "precio_media": "",
+        "precio_full": "3,45",
+        "likes": 56,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Mini Burger Caramelizada",
+        "desc": "Mini Burger Caramelizada",
+        "precio_media": "",
+        "precio_full": "3,45",
+        "likes": 76,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Mini Burger WAGYU",
+        "desc": "Mini Burger WAGYU",
+        "precio_media": "",
+        "precio_full": "4,90",
+        "likes": 110,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "",
+        "precio_full": "5,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Rock&amp;Roll Ibérico",
+        "desc": "Rock&amp;Roll Ibérico",
+        "precio_media": "",
+        "precio_full": "4",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Lomo Bajo Madurado A La Parrilla",
+        "desc": "Lomo Bajo Madurado A La Parrilla",
+        "precio_media": "",
+        "precio_full": "Según Maduración Y Raza / Preguntar",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "8,50",
+        "precio_full": "15,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Solomillo De Vaca",
+        "desc": "Albóndigas De Solomillo De Vaca",
+        "precio_media": "7,75",
+        "precio_full": "12,90",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Chateaubriand de Solomillo de Vaca",
+        "desc": "Chateaubriand de Solomillo de Vaca",
+        "precio_media": "34,45",
+        "precio_full": "54,95",
+        "likes": 0,
+        "img": "",
+        "top": false
+      }
+    ]
+  },
+  "BURGERS": {
+    "type": "platos",
+    "items": [
+      {
+        "name": "Burger Gourmet Clásica",
+        "desc": "Burger Gourmet Clásica",
+        "precio_media": "",
+        "precio_full": "10,55",
+        "likes": 83,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Burger Gourmet Frita",
+        "desc": "Disfruta por encima del decoro. Sabes que necesitarás la servilleta cerca, pero querrás chuparte los dedos.",
+        "precio_media": "",
+        "precio_full": "11,55",
+        "likes": 320,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Burger Gourmet Chickoa",
+        "desc": "Burger Gourmet Chickoa",
+        "precio_media": "",
+        "precio_full": "9,5",
+        "likes": 66,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Burger Gourmet Lotus",
+        "desc": "Burger Gourmet Lotus",
+        "precio_media": "",
+        "precio_full": "14,50",
+        "likes": 271,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Burger Gourmet de Mary",
+        "desc": "Burger Gourmet de Mary",
+        "precio_media": "",
+        "precio_full": "9,5",
+        "likes": 72,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Burger Gourmet Donna",
+        "desc": "Burger Gourmet Donna",
+        "precio_media": "",
+        "precio_full": "14,55",
+        "likes": 74,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Burger Gourmet Wagyu",
+        "desc": "Sin palabras. Si eres un auténtico amante de las hamburguesas esta es tu Burger preferida, garantizado.",
+        "precio_media": "",
+        "precio_full": "18,95",
+        "likes": 147,
+        "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0161-1-1920x1278.jpg",
+        "top": true
+      },
+      {
+        "name": "Burger Gourmet Gaucha",
+        "desc": "Burger Gourmet Gaucha",
+        "precio_media": "",
+        "precio_full": "10,55",
+        "likes": 47,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Burger Gourmet Little John",
+        "desc": "Burger Gourmet Little John",
+        "precio_media": "",
+        "precio_full": "14,55",
+        "likes": 93,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Burger Gourmet Pepinilla",
+        "desc": "Burger Gourmet Pepinilla",
+        "precio_media": "",
+        "precio_full": "16,55",
+        "likes": 66,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Burger Gourmet Rúcula",
+        "desc": "Burger Gourmet Rúcula",
+        "precio_media": "",
+        "precio_full": "10,55",
+        "likes": 59,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "",
+        "precio_full": "5,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Rock&amp;Roll Ibérico",
+        "desc": "Rock&amp;Roll Ibérico",
+        "precio_media": "",
+        "precio_full": "4",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Lomo Bajo Madurado A La Parrilla",
+        "desc": "Lomo Bajo Madurado A La Parrilla",
+        "precio_media": "",
+        "precio_full": "Según Maduración Y Raza / Preguntar",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "8,50",
+        "precio_full": "15,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Solomillo De Vaca",
+        "desc": "Albóndigas De Solomillo De Vaca",
+        "precio_media": "7,75",
+        "precio_full": "12,90",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Chateaubriand de Solomillo de Vaca",
+        "desc": "Chateaubriand de Solomillo de Vaca",
+        "precio_media": "34,45",
+        "precio_full": "54,95",
+        "likes": 0,
+        "img": "",
+        "top": false
+      }
+    ]
+  },
+  "ORIENTALES Y SUSHIS": {
+    "type": "platos",
+    "items": [
+      {
+        "name": "Nigiri de Huevo de Codorniz y Trufa",
+        "desc": "Sorprendente y exquisito. Una combinación arriesgada para valientes que quieren probar nuevos placeres. Los nigiris mínimo deben ser 3 unidades, iguales o mezclados",
+        "precio_media": "",
+        "precio_full": "4,95",
+        "likes": 133,
+        "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0225-2-1920x1278.jpg",
+        "top": true
+      },
+      {
+        "name": "Nigiri de Atún Rojo",
+        "desc": "Los nigiris mínimo deben ser 3 unidades, iguales o mezclados",
+        "precio_media": "",
+        "precio_full": "4,95",
+        "likes": 72,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Nigiri de Salmón",
+        "desc": "Los nigiris mínimo deben ser 3 unidades, iguales o mezclados",
+        "precio_media": "",
+        "precio_full": "3,45",
+        "likes": 77,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Nigiri de Salmón Braseado",
+        "desc": "Los nigiris mínimo deben ser 3 unidades, iguales o mezclados",
+        "precio_media": "",
+        "precio_full": "3,95",
+        "likes": 69,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Bao de Tigre",
+        "desc": "Un espectáculo completo. Vista, olfato, oído, gusto y tacto entran en juego en la cata de este montadito oriental.",
+        "precio_media": "",
+        "precio_full": "5,9",
+        "likes": 178,
+        "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0190-2-1920x1278.jpg",
+        "top": true
+      },
+      {
+        "name": "Bao de Mackintosh",
+        "desc": "Bao de Mackintosh",
+        "precio_media": "",
+        "precio_full": "5,9",
+        "likes": 119,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Bao de Pollo",
+        "desc": "Bao de Pollo",
+        "precio_media": "",
+        "precio_full": "4,95",
+        "likes": 85,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Bao de Cerde Asado",
+        "desc": "Bao de Cerde Asado",
+        "precio_media": "",
+        "precio_full": "4,5",
+        "likes": 71,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Poké de Atún",
+        "desc": "Poké de Atún",
+        "precio_media": "",
+        "precio_full": "12,65",
+        "likes": 66,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Poké de Salmón",
+        "desc": "Poké de Salmón",
+        "precio_media": "",
+        "precio_full": "12,65",
+        "likes": 71,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Gyozas de Gambas",
+        "desc": "Gyozas de Gambas",
+        "precio_media": "",
+        "precio_full": "",
+        "likes": 85,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Gyozas de Pato",
+        "desc": "Gyozas de Pato",
+        "precio_media": "",
+        "precio_full": "",
+        "likes": 97,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Gyozas de Pollo",
+        "desc": "Gyozas de Pollo",
+        "precio_media": "",
+        "precio_full": "",
+        "likes": 76,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "",
+        "precio_full": "5,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Rock&amp;Roll Ibérico",
+        "desc": "Rock&amp;Roll Ibérico",
+        "precio_media": "",
+        "precio_full": "4",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Lomo Bajo Madurado A La Parrilla",
+        "desc": "Lomo Bajo Madurado A La Parrilla",
+        "precio_media": "",
+        "precio_full": "Según Maduración Y Raza / Preguntar",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "8,50",
+        "precio_full": "15,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Solomillo De Vaca",
+        "desc": "Albóndigas De Solomillo De Vaca",
+        "precio_media": "7,75",
+        "precio_full": "12,90",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Chateaubriand de Solomillo de Vaca",
+        "desc": "Chateaubriand de Solomillo de Vaca",
+        "precio_media": "34,45",
+        "precio_full": "54,95",
+        "likes": 0,
+        "img": "",
+        "top": false
+      }
+    ]
+  },
+  "ROLLS": {
+    "type": "platos",
+    "items": [
+      {
+        "name": "Roll Almadraba Maki",
+        "desc": "Roll Almadraba Maki",
+        "precio_media": "",
+        "precio_full": "14,45",
+        "likes": 93,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Roll Umai Maki",
+        "desc": "Mmmm Umami. Si aún no conoces este término, con este plato descubrirás lo que significa realmente la palabra sabrosura.",
+        "precio_media": "",
+        "precio_full": "15,75",
+        "likes": 174,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Roll El Rincón Maki",
+        "desc": "Roll El Rincón Maki",
+        "precio_media": "",
+        "precio_full": "13,95",
+        "likes": 88,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Roll Gallego Maki",
+        "desc": "Roll Gallego Maki",
+        "precio_media": "",
+        "precio_full": "13,55",
+        "likes": 86,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Roll Hot Maki",
+        "desc": "Roll Hot Maki",
+        "precio_media": "",
+        "precio_full": "9,95",
+        "likes": 89,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Roll Kentuky Maki",
+        "desc": "Roll Kentuky Maki",
+        "precio_media": "",
+        "precio_full": "9,95",
+        "likes": 88,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Roll New York Maki",
+        "desc": "Roll New York Maki",
+        "precio_media": "",
+        "precio_full": "13,95",
+        "likes": 108,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Roll Pimpi Maki",
+        "desc": "Roll Pimpi Maki",
+        "precio_media": "",
+        "precio_full": "14,45",
+        "likes": 83,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Roll Salmón Cream Maki",
+        "desc": "Roll Salmón Cream Maki",
+        "precio_media": "",
+        "precio_full": "14,75",
+        "likes": 96,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Roll Salmón Maki",
+        "desc": "Roll Salmón Maki",
+        "precio_media": "",
+        "precio_full": "8,90",
+        "likes": 95,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Roll Tropical Maki",
+        "desc": "Roll Tropical Maki",
+        "precio_media": "",
+        "precio_full": "14,45",
+        "likes": 86,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Roll Wakame Maki",
+        "desc": "Roll Wakame Maki",
+        "precio_media": "",
+        "precio_full": "8,90",
+        "likes": 82,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "",
+        "precio_full": "5,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Rock&amp;Roll Ibérico",
+        "desc": "Rock&amp;Roll Ibérico",
+        "precio_media": "",
+        "precio_full": "4",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Lomo Bajo Madurado A La Parrilla",
+        "desc": "Lomo Bajo Madurado A La Parrilla",
+        "precio_media": "",
+        "precio_full": "Según Maduración Y Raza / Preguntar",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "8,50",
+        "precio_full": "15,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Solomillo De Vaca",
+        "desc": "Albóndigas De Solomillo De Vaca",
+        "precio_media": "7,75",
+        "precio_full": "12,90",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Chateaubriand de Solomillo de Vaca",
+        "desc": "Chateaubriand de Solomillo de Vaca",
+        "precio_media": "34,45",
+        "precio_full": "54,95",
+        "likes": 0,
+        "img": "",
+        "top": false
+      }
+    ]
+  },
+  "CARNES": {
+    "type": "platos",
+    "items": [
+      {
+        "name": "Solomillo de Cerdo Ibérico a la Parrilla",
+        "desc": "Tierno, jugoso... delicioso. Un clásico entre los clásicos con el que siempre triunfarás.",
+        "precio_media": "",
+        "precio_full": "16,45",
+        "likes": 233,
+        "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0278-2-1920x1278.jpg",
+        "top": true
+      },
+      {
+        "name": "Churrasco De Pollo A La Parrilla",
+        "desc": "Con patatas fritas en AOVE y salsa gaucha",
+        "precio_media": "",
+        "precio_full": "12,95",
+        "likes": 979,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Secreto Ibérico a la Parrilla",
+        "desc": "Secreto Ibérico a la Parrilla",
+        "precio_media": "",
+        "precio_full": "19,50",
+        "likes": 169,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Solomillo de Cerdo Ibérco al Roquefort",
+        "desc": "Solomillo de Cerdo Ibérco al Roquefort",
+        "precio_media": "",
+        "precio_full": "18,45",
+        "likes": 118,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Solomillo de Cerdo Ibérico a la Pimienta Verde",
+        "desc": "Solomillo de Cerdo Ibérico a la Pimienta Verde",
+        "precio_media": "",
+        "precio_full": "18,45",
+        "likes": 99,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Chateaubriand de Solomillo de Vaca",
+        "desc": "Un show en vivo y en directo. Cortado en tu mesa para que disfrutes de este espectáculo gastronómico.",
+        "precio_media": "34,45",
+        "precio_full": "54,95",
+        "likes": 149,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Solomillo de Vaca a la Parrilla",
+        "desc": "Solomillo de Vaca a la Parrilla",
+        "precio_media": "",
+        "precio_full": "29,95",
+        "likes": 108,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Brocheta de Solomillo de Cerdo Ibérico a la Parrilla con Verduras",
+        "desc": "Brocheta de Solomillo de Cerdo Ibérico a la Parrilla con Verduras",
+        "precio_media": "",
+        "precio_full": "24,95",
+        "likes": 84,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Entrecot Madurado",
+        "desc": "Exquisita paciencia. 45 días es el tiempo que pasa esta carne en nuestro rincón para que tú te deleites con ella.",
+        "precio_media": "",
+        "precio_full": "29",
+        "likes": 140,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Lomo Bajo Madurado A La Parrilla",
+        "desc": "Tenemos distintas razas y tiempos de maduración, expuestas en nueva cámara Dry Aged",
+        "precio_media": "",
+        "precio_full": "Según Maduración Y Raza / Preguntar",
+        "likes": 329,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "",
+        "precio_full": "5,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Rock&amp;Roll Ibérico",
+        "desc": "Rock&amp;Roll Ibérico",
+        "precio_media": "",
+        "precio_full": "4",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Lomo Bajo Madurado A La Parrilla",
+        "desc": "Lomo Bajo Madurado A La Parrilla",
+        "precio_media": "",
+        "precio_full": "Según Maduración Y Raza / Preguntar",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "8,50",
+        "precio_full": "15,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Solomillo De Vaca",
+        "desc": "Albóndigas De Solomillo De Vaca",
+        "precio_media": "7,75",
+        "precio_full": "12,90",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Chateaubriand de Solomillo de Vaca",
+        "desc": "Chateaubriand de Solomillo de Vaca",
+        "precio_media": "34,45",
+        "precio_full": "54,95",
+        "likes": 0,
+        "img": "",
+        "top": false
+      }
+    ]
+  },
+  "SALSAS EXTRA": {
+    "type": "platos",
+    "items": [
+      {
+        "name": "Mostaza",
+        "desc": "Mostaza",
+        "precio_media": "",
+        "precio_full": "1,55",
+        "likes": 36,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Pimienta Verde",
+        "desc": "Pimienta Verde",
+        "precio_media": "",
+        "precio_full": "0,95",
+        "likes": 32,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Roquefort",
+        "desc": "Roquefort",
+        "precio_media": "",
+        "precio_full": "0,95",
+        "likes": 31,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Sriracha Picante",
+        "desc": "Sriracha Picante",
+        "precio_media": "",
+        "precio_full": "1,55",
+        "likes": 27,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Africana",
+        "desc": "Africana",
+        "precio_media": "",
+        "precio_full": "0,95",
+        "likes": 31,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Agridulce",
+        "desc": "Agridulce",
+        "precio_media": "",
+        "precio_full": "0,95",
+        "likes": 27,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Ali-Oli",
+        "desc": "Ali-Oli",
+        "precio_media": "",
+        "precio_full": "0,95",
+        "likes": 30,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Barbacoa",
+        "desc": "Barbacoa",
+        "precio_media": "",
+        "precio_full": "0,95",
+        "likes": 32,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Gaucha",
+        "desc": "Gaucha",
+        "precio_media": "",
+        "precio_full": "0,95",
+        "likes": 35,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Japonesa",
+        "desc": "Japonesa",
+        "precio_media": "",
+        "precio_full": "1,55",
+        "likes": 28,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Ketchup",
+        "desc": "Ketchup",
+        "precio_media": "",
+        "precio_full": "0,95",
+        "likes": 38,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Mayonesa",
+        "desc": "Mayonesa",
+        "precio_media": "",
+        "precio_full": "0,95",
+        "likes": 37,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "",
+        "precio_full": "5,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Rock&amp;Roll Ibérico",
+        "desc": "Rock&amp;Roll Ibérico",
+        "precio_media": "",
+        "precio_full": "4",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Lomo Bajo Madurado A La Parrilla",
+        "desc": "Lomo Bajo Madurado A La Parrilla",
+        "precio_media": "",
+        "precio_full": "Según Maduración Y Raza / Preguntar",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "8,50",
+        "precio_full": "15,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Solomillo De Vaca",
+        "desc": "Albóndigas De Solomillo De Vaca",
+        "precio_media": "7,75",
+        "precio_full": "12,90",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Chateaubriand de Solomillo de Vaca",
+        "desc": "Chateaubriand de Solomillo de Vaca",
+        "precio_media": "34,45",
+        "precio_full": "54,95",
+        "likes": 0,
+        "img": "",
+        "top": false
+      }
+    ]
+  },
+  "POSTRES": {
+    "type": "platos",
+    "items": [
+      {
+        "name": "Tarta de Huesito",
+        "desc": "Tarta de Huesito",
+        "precio_media": "",
+        "precio_full": "",
+        "likes": 47,
+        "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2025/08/DSC_0054-1920x1280.jpg",
+        "top": true
+      },
+      {
+        "name": "¿QUIERES UNA TARTA ENTERA?",
+        "desc": "¿QUIERES UNA TARTA ENTERA?",
+        "precio_media": "",
+        "precio_full": "",
+        "likes": 33,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Tarta de Oreo",
+        "desc": "Tarta de Oreo",
+        "precio_media": "",
+        "precio_full": "",
+        "likes": 117,
+        "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0395-1-1920x1278.jpg",
+        "top": true
+      },
+      {
+        "name": "Tarta de Nutella",
+        "desc": "Tarta de Nutella",
+        "precio_media": "",
+        "precio_full": "",
+        "likes": 119,
+        "img": "",
+        "top": true
+      },
+      {
+        "name": "Tarta de Queso",
+        "desc": "Tarta de Queso",
+        "precio_media": "",
+        "precio_full": "",
+        "likes": 110,
+        "img": "https://www.elrincondejuan.es/wp-content/uploads/sites/829/2023/08/DSC0350-2-1920x1278.jpg",
+        "top": true
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "",
+        "precio_full": "5,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Rock&amp;Roll Ibérico",
+        "desc": "Rock&amp;Roll Ibérico",
+        "precio_media": "",
+        "precio_full": "4",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Lomo Bajo Madurado A La Parrilla",
+        "desc": "Lomo Bajo Madurado A La Parrilla",
+        "precio_media": "",
+        "precio_full": "Según Maduración Y Raza / Preguntar",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "desc": "Albóndigas De Atún Rojo JC Matckintosh En Salsa De Tomate Casero",
+        "precio_media": "8,50",
+        "precio_full": "15,50",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Albóndigas De Solomillo De Vaca",
+        "desc": "Albóndigas De Solomillo De Vaca",
+        "precio_media": "7,75",
+        "precio_full": "12,90",
+        "likes": 0,
+        "img": "",
+        "top": false
+      },
+      {
+        "name": "Chateaubriand de Solomillo de Vaca",
+        "desc": "Chateaubriand de Solomillo de Vaca",
+        "precio_media": "34,45",
+        "precio_full": "54,95",
+        "likes": 0,
+        "img": "",
+        "top": false
+      }
+    ]
+  }
+}

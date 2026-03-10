@@ -1,0 +1,94 @@
+.carta-bebidas {
+  min-height: 100vh;
+  background: #040304;
+  color: #f5eedc;
+  padding-bottom: 4rem;
+}
+
+.carta-bebidas__topbar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem 1rem;
+  border-bottom: 1px solid #203b2f;
+}
+
+.carta-bebidas__back {
+  color: #a0b89a;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  transition: color 0.2s;
+}
+.carta-bebidas__back:hover { color: #f5eedc; }
+
+.carta-bebidas__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #f5eedc;
+  margin: 0;
+  letter-spacing: 0.05em;
+}
+
+.carta-bebidas__content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.bebidas-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.bebida-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #1a2a20;
+}
+.bebida-card:last-child { border-bottom: none; }
+
+.bebida-card__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.bebida-card__name {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #f5eedc;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.2rem;
+}
+
+.bebida-card__desc {
+  color: #a0a09a;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.bebida-card__precio {
+  color: #d29f85;
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.bebidas-nota {
+  color: #555;
+  font-size: 0.75rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .carta-bebidas__topbar { padding: 1rem 1rem 0.7rem; }
+  .carta-bebidas__title { font-size: 1.2rem; }
+  .carta-bebidas__content { padding: 1.5rem 1rem; }
+}

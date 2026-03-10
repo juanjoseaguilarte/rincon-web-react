@@ -16,6 +16,10 @@ import Footer from './components/Footer'
 import { AdminProvider } from './context/AdminContext'
 import AdminLogin from './admin/AdminLogin'
 import AdminPanel from './admin/AdminPanel'
+import TodasCartas from './pages/TodasCartas'
+import CartaComida from './pages/CartaComida'
+import CartaBebidas from './pages/CartaBebidas'
+import CartaBodega from './pages/CartaBodega'
 
 function PublicSite() {
   useEffect(() => {
@@ -54,6 +58,10 @@ function App() {
           <Route path="/" element={<PublicSite />} />
           <Route path="/admin/login" element={<AdminLogin />} />
           <Route path="/admin/*" element={<ProtectedAdmin />} />
+          <Route path="/cartas" element={<TodasCartas />} />
+          <Route path="/cartas/comida" element={<CartaComida />} />
+          <Route path="/cartas/bebidas" element={<CartaBebidas />} />
+          <Route path="/cartas/bodega" element={<CartaBodega />} />
         </Routes>
       </BrowserRouter>
     </AdminProvider>
