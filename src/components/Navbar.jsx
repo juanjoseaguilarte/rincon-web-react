@@ -51,8 +51,9 @@ export default function Navbar() {
         <nav className="navbar__links">
           <a href="tel:678401253" className="navbar__phone">+34 678 40 12 53</a>
           <a href="#carta" className="navbar__link">Cartas</a>
+          <a href="https://www.elrincondejuan.es/hacer-pedido/" target="_blank" rel="noopener noreferrer" className="navbar__link">Hacer pedido</a>
+          <a href="https://www.elrincondejuan.es/regala/" target="_blank" rel="noopener noreferrer" className="navbar__link">Regala</a>
           <a href="#reservas" className="navbar__link navbar__link--highlight">Reserva</a>
-          <a href="#contacto" className="navbar__link">Contacto</a>
         </nav>
 
         {/* Mobile hamburger */}
@@ -78,6 +79,8 @@ export default function Navbar() {
           </div>
           <a href="tel:678401253" className="navbar__mobile-link">+34 678 40 12 53</a>
           <a href="#carta" className="navbar__mobile-link" onClick={() => setMenuOpen(false)}>Cartas</a>
+          <a href="https://www.elrincondejuan.es/hacer-pedido/" target="_blank" rel="noopener noreferrer" className="navbar__mobile-link" onClick={() => setMenuOpen(false)}>Hacer pedido</a>
+          <a href="https://www.elrincondejuan.es/regala/" target="_blank" rel="noopener noreferrer" className="navbar__mobile-link" onClick={() => setMenuOpen(false)}>Regala</a>
           <a href="#reservas" className="navbar__mobile-link" onClick={() => setMenuOpen(false)}>Reserva</a>
           <a href="#contacto" className="navbar__mobile-link" onClick={() => setMenuOpen(false)}>Contacto</a>
         </div>

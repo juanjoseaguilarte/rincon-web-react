@@ -15,6 +15,7 @@ export default function Footer() {
             <a href="#carta">Carta</a>
             <a href="#reservas">Reservas</a>
             <a href="#contacto">Contacto</a>
+            <a href="https://www.elrincondejuan.es/eventos/" target="_blank" rel="noopener noreferrer">Eventos</a>
           </nav>
 
           <div className="footer__social">
@@ -32,13 +33,27 @@ export default function Footer() {
             >
               Facebook
             </a>
+            <a
+              href="https://www.tripadvisor.es/Restaurant_Review-g660738-d2199949-Reviews-El_Rincon_de_Juan_The_Wine_Bar-La_Linea_de_la_Concepcion_Province_of_Cadiz_Andalu.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              TripAdvisor
+            </a>
+            <a
+              href="https://g.page/r/CZhIkb_U54C3EBM/review"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Valora tu experiencia
+            </a>
           </div>
         </div>
 
         <div className="footer__bottom">
-          <p>© El Rincón de Juan. Todos los derechos reservados.</p>
+          <p>© El Rincón de Juan. Todos los derechos reservados. | Diseño: <a href="https://www.agenciagastro.com/" target="_blank" rel="noopener noreferrer">Agencia Gastro</a>. Powered by <a href="https://www.pomatio.com/" target="_blank" rel="noopener noreferrer">Pomatio</a>.</p>
           <a href="https://www.elrincondejuan.es/legal/" target="_blank" rel="noopener noreferrer">
-            Política de privacidad y Legal
+            Cookies, Condiciones generales, Política de privacidad y Legal
           </a>
         </div>
       </div>

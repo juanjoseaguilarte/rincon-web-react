@@ -224,3 +224,17 @@
     grid-template-columns: 1fr;
   }
 }
+
+.reservas__iframe {
+  width: 100%;
+  min-height: 600px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+}
+
+.reservas__terraza-note {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.7);
+  font-style: italic;
+}

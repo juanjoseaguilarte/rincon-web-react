@@ -11,9 +11,9 @@ export default function About() {
             <h2 className="about__title">Un matrimonio con<br />gusto por la restauración</h2>
             <div className="about__body">
               <p>
-                Qué un día allá por 2003 decidió hacerse cargo de una pequeña cafetería en su pueblo,
+                Qué un dia allá por 2003 decidió hacerse cargo de una pequeña cafetería en su pueblo,
                 este pueblo, La Línea de la Concepción. Como ocurre siempre en los comienzos,
-                empezaron con mucho esfuerzo.
+                empezaron con mucho esfuerzo. Pero la ilusión y las ganas de tener un «barecito» propio merecían la pena.
               </p>
               <p>
                 Las llamas no pudieron con las ganas, las fuerzas y la ilusión de Juan y Luz Mari,
