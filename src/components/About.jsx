@@ -6,7 +6,7 @@ export default function About() {
       <div className="container">
         <div className="about__grid">
           {/* Text column */}
-          <div className="about__text">
+          <div className="about__text" data-aos="fade-up" data-aos-duration="700">
             <p className="about__label">Nuestra historia</p>
             <h2 className="about__title">Un matrimonio con<br />gusto por la restauración</h2>
             <div className="about__body">
@@ -32,7 +32,7 @@ export default function About() {
           </div>
 
           {/* Image column */}
-          <div className="about__images">
+          <div className="about__images" data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">
             <div className="about__img-main">
               <img src="/DSC9627-1.jpg" alt="El Rincón de Juan - Restaurante" />
             </div>
@@ -43,7 +43,7 @@ export default function About() {
         </div>
 
         {/* Stats */}
-        <div className="about__stats">
+        <div className="about__stats" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
           <div className="about__stat">
             <span className="about__stat-num">4.4</span>
             <span className="about__stat-label">Google Reviews</span>

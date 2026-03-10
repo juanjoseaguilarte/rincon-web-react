@@ -27,7 +27,7 @@ export default function Reviews() {
   return (
     <section className="reviews section" id="reviews">
       <div className="container">
-        <div className="reviews__header">
+        <div className="reviews__header" data-aos="fade-up" data-aos-duration="700">
           <p className="reviews__label">Lo que dicen de nosotros</p>
           <h2 className="reviews__title">Nuestros clientes</h2>
           <div className="reviews__scores">
@@ -42,7 +42,7 @@ export default function Reviews() {
           </div>
         </div>
 
-        <div className="reviews__grid">
+        <div className="reviews__grid" data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">
           {reviews.map((review, i) => (
             <div key={i} className="reviews__card">
               <div className="reviews__stars">

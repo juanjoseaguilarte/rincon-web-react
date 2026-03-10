@@ -5,7 +5,7 @@ export default function Experience() {
     <section className="experience" id="experience">
       <div className="experience__split">
         {/* Left - El Rincón */}
-        <div className="experience__panel experience__panel--dark">
+        <div className="experience__panel experience__panel--dark" data-aos="fade-up" data-aos-duration="700">
           <div className="experience__panel-img">
             <img src="/DSC9948-1.jpg" alt="Experiencia El Rincón" />
           </div>
@@ -21,7 +21,7 @@ export default function Experience() {
         </div>
 
         {/* Right - La Línea */}
-        <div className="experience__panel experience__panel--light">
+        <div className="experience__panel experience__panel--light" data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">
           <div className="experience__panel-img">
             <img src="/DSC0088-2-1.jpg" alt="Experiencia La Línea" />
           </div>

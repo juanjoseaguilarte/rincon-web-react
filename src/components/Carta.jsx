@@ -43,7 +43,7 @@ export default function Carta() {
   return (
     <section className="carta section" id="carta">
       <div className="container">
-        <div className="carta__header">
+        <div className="carta__header" data-aos="fade-up" data-aos-duration="700">
           <p className="carta__label">Lo que cocinamos</p>
           <h2 className="carta__title">Nuestra Carta</h2>
           <p className="carta__desc">
@@ -52,7 +52,7 @@ export default function Carta() {
           </p>
         </div>
 
-        <div className="carta__grid">
+        <div className="carta__grid" data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">
           {cartaSections.map((section) => (
             <div key={section.category} className="carta__section">
               <h3 className="carta__section-title">{section.category}</h3>
